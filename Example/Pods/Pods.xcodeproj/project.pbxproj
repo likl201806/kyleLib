@@ -359,6 +359,56 @@
 		ED2809CC29A7884D006C7AB0 /* CMDLRUCache.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809B429A7884D006C7AB0 /* CMDLRUCache.m */; };
 		ED2809CD29A7884D006C7AB0 /* CMDCacheProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809B529A7884D006C7AB0 /* CMDCacheProtocol.h */; };
 		ED2809CE29A7884D006C7AB0 /* CMDCustomSlideView.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809B629A7884D006C7AB0 /* CMDCustomSlideView.h */; };
+		ED280A0529A788B6006C7AB0 /* LYSaveDataType.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809D229A788B6006C7AB0 /* LYSaveDataType.h */; };
+		ED280A0629A788B6006C7AB0 /* LYSaveClassPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809D329A788B6006C7AB0 /* LYSaveClassPrint.m */; };
+		ED280A0729A788B6006C7AB0 /* NSString+LYDataConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809D429A788B6006C7AB0 /* NSString+LYDataConvert.m */; };
+		ED280A0829A788B6006C7AB0 /* NSObject+LYGetProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809D529A788B6006C7AB0 /* NSObject+LYGetProperty.m */; };
+		ED280A0929A788B6006C7AB0 /* LYDecimalNumberTool.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809D629A788B6006C7AB0 /* LYDecimalNumberTool.m */; };
+		ED280A0A29A788B6006C7AB0 /* NSString+LYRegular.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809D729A788B6006C7AB0 /* NSString+LYRegular.m */; };
+		ED280A0B29A788B6006C7AB0 /* NSObject+LYDataConvertRule.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809D829A788B6006C7AB0 /* NSObject+LYDataConvertRule.m */; };
+		ED280A0C29A788B6006C7AB0 /* NSObject+LYSafetySet.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809D929A788B6006C7AB0 /* NSObject+LYSafetySet.m */; };
+		ED280A0D29A788B6006C7AB0 /* NSMutableArray+LYSafetySet.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809DA29A788B6006C7AB0 /* NSMutableArray+LYSafetySet.m */; };
+		ED280A0E29A788B6006C7AB0 /* NSDictionary+LYSafetySet.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809DB29A788B6006C7AB0 /* NSDictionary+LYSafetySet.m */; };
+		ED280A0F29A788B6006C7AB0 /* LYSaveDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809DC29A788B6006C7AB0 /* LYSaveDataType.m */; };
+		ED280A1029A788B6006C7AB0 /* NSString+LYRegular.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809DD29A788B6006C7AB0 /* NSString+LYRegular.h */; };
+		ED280A1129A788B6006C7AB0 /* NSObject+LYGetProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809DE29A788B6006C7AB0 /* NSObject+LYGetProperty.h */; };
+		ED280A1229A788B6006C7AB0 /* LYDecimalNumberTool.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809DF29A788B6006C7AB0 /* LYDecimalNumberTool.h */; };
+		ED280A1329A788B6006C7AB0 /* NSString+LYDataConvert.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809E029A788B6006C7AB0 /* NSString+LYDataConvert.h */; };
+		ED280A1429A788B6006C7AB0 /* LYSaveClassPrint.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809E129A788B6006C7AB0 /* LYSaveClassPrint.h */; };
+		ED280A1529A788B6006C7AB0 /* NSObject+LYDataConvertRule.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809E229A788B6006C7AB0 /* NSObject+LYDataConvertRule.h */; };
+		ED280A1629A788B6006C7AB0 /* NSDictionary+LYSafetySet.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809E329A788B6006C7AB0 /* NSDictionary+LYSafetySet.h */; };
+		ED280A1729A788B6006C7AB0 /* NSMutableArray+LYSafetySet.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809E429A788B6006C7AB0 /* NSMutableArray+LYSafetySet.h */; };
+		ED280A1829A788B6006C7AB0 /* NSObject+LYSafetySet.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809E529A788B6006C7AB0 /* NSObject+LYSafetySet.h */; };
+		ED280A1929A788B6006C7AB0 /* LYSaveDataConvert.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809E629A788B6006C7AB0 /* LYSaveDataConvert.h */; };
+		ED280A1A29A788B6006C7AB0 /* NSData+LYDataConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809E729A788B6006C7AB0 /* NSData+LYDataConvert.m */; };
+		ED280A1B29A788B6006C7AB0 /* NSObject+LYToJson.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809E829A788B6006C7AB0 /* NSObject+LYToJson.m */; };
+		ED280A1C29A788B6006C7AB0 /* NSObject+LYToDic.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809E929A788B6006C7AB0 /* NSObject+LYToDic.m */; };
+		ED280A1D29A788B6006C7AB0 /* NSDictionary+LYDataConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809EA29A788B6006C7AB0 /* NSDictionary+LYDataConvert.m */; };
+		ED280A1E29A788B6006C7AB0 /* NSObject+LYToModel.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809EB29A788B6006C7AB0 /* NSObject+LYToModel.h */; };
+		ED280A1F29A788B6006C7AB0 /* LYDataConvertConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809EC29A788B6006C7AB0 /* LYDataConvertConfig.h */; };
+		ED280A2029A788B6006C7AB0 /* NSArray+LYDataConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809ED29A788B6006C7AB0 /* NSArray+LYDataConvert.m */; };
+		ED280A2129A788B6006C7AB0 /* NSData+LYDataConvert.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809EE29A788B6006C7AB0 /* NSData+LYDataConvert.h */; };
+		ED280A2229A788B6006C7AB0 /* LYSaveDataConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809EF29A788B6006C7AB0 /* LYSaveDataConvert.m */; };
+		ED280A2329A788B6006C7AB0 /* NSObject+LYToModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809F029A788B6006C7AB0 /* NSObject+LYToModel.m */; };
+		ED280A2429A788B6006C7AB0 /* NSDictionary+LYDataConvert.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809F129A788B6006C7AB0 /* NSDictionary+LYDataConvert.h */; };
+		ED280A2529A788B6006C7AB0 /* NSObject+LYToDic.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809F229A788B6006C7AB0 /* NSObject+LYToDic.h */; };
+		ED280A2629A788B6006C7AB0 /* NSObject+LYToJson.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809F329A788B6006C7AB0 /* NSObject+LYToJson.h */; };
+		ED280A2729A788B6006C7AB0 /* NSArray+LYDataConvert.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809F429A788B6006C7AB0 /* NSArray+LYDataConvert.h */; };
+		ED280A2829A788B6006C7AB0 /* LYDataConvertConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809F529A788B6006C7AB0 /* LYDataConvertConfig.m */; };
+		ED280A2929A788B6006C7AB0 /* USAGE.md in Resources */ = {isa = PBXBuildFile; fileRef = ED2809F629A788B6006C7AB0 /* USAGE.md */; };
+		ED280A2A29A788B6006C7AB0 /* LYDataHandleHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809F729A788B6006C7AB0 /* LYDataHandleHeaders.h */; };
+		ED280A2B29A788B6006C7AB0 /* LYDataHandleLog.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809F829A788B6006C7AB0 /* LYDataHandleLog.h */; };
+		ED280A2C29A788B6006C7AB0 /* LYDataHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809F929A788B6006C7AB0 /* LYDataHandle.h */; };
+		ED280A2D29A788B6006C7AB0 /* LYClassArchived.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809FB29A788B6006C7AB0 /* LYClassArchived.h */; };
+		ED280A2E29A788B6006C7AB0 /* NSObject+LYSQliteHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809FC29A788B6006C7AB0 /* NSObject+LYSQliteHandle.h */; };
+		ED280A2F29A788B6006C7AB0 /* LYDataStoreCache.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809FD29A788B6006C7AB0 /* LYDataStoreCache.m */; };
+		ED280A3029A788B6006C7AB0 /* LYSQLResult.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809FE29A788B6006C7AB0 /* LYSQLResult.m */; };
+		ED280A3129A788B6006C7AB0 /* LYDataStoreSQlite.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809FF29A788B6006C7AB0 /* LYDataStoreSQlite.h */; };
+		ED280A3229A788B6006C7AB0 /* LYDataStoreCache.h in Headers */ = {isa = PBXBuildFile; fileRef = ED280A0029A788B6006C7AB0 /* LYDataStoreCache.h */; };
+		ED280A3329A788B6006C7AB0 /* NSObject+LYSQliteHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = ED280A0129A788B6006C7AB0 /* NSObject+LYSQliteHandle.m */; };
+		ED280A3429A788B6006C7AB0 /* LYClassArchived.m in Sources */ = {isa = PBXBuildFile; fileRef = ED280A0229A788B6006C7AB0 /* LYClassArchived.m */; };
+		ED280A3529A788B6006C7AB0 /* LYSQLResult.h in Headers */ = {isa = PBXBuildFile; fileRef = ED280A0329A788B6006C7AB0 /* LYSQLResult.h */; };
+		ED280A3629A788B6006C7AB0 /* LYDataStoreSQlite.m in Sources */ = {isa = PBXBuildFile; fileRef = ED280A0429A788B6006C7AB0 /* LYDataStoreSQlite.m */; };
 		EE3B8613CDD20D58260C22D21BC61F38 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A624813C76604B1CD7295C942586B8A /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF298CB7040CBFA5E05465F7FC054473 /* WMGTextActiveRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 75473C2DF894D5F0A6B9014AD0B855F5 /* WMGTextActiveRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF32A7770C709AE3BF48B0EEB15D92CB /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 1545CD2AA3AB04AC99C83F3EAE50348F /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -846,6 +896,56 @@
 		ED2809B429A7884D006C7AB0 /* CMDLRUCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDLRUCache.m; sourceTree = "<group>"; };
 		ED2809B529A7884D006C7AB0 /* CMDCacheProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDCacheProtocol.h; sourceTree = "<group>"; };
 		ED2809B629A7884D006C7AB0 /* CMDCustomSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDCustomSlideView.h; sourceTree = "<group>"; };
+		ED2809D229A788B6006C7AB0 /* LYSaveDataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSaveDataType.h; sourceTree = "<group>"; };
+		ED2809D329A788B6006C7AB0 /* LYSaveClassPrint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSaveClassPrint.m; sourceTree = "<group>"; };
+		ED2809D429A788B6006C7AB0 /* NSString+LYDataConvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LYDataConvert.m"; sourceTree = "<group>"; };
+		ED2809D529A788B6006C7AB0 /* NSObject+LYGetProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LYGetProperty.m"; sourceTree = "<group>"; };
+		ED2809D629A788B6006C7AB0 /* LYDecimalNumberTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDecimalNumberTool.m; sourceTree = "<group>"; };
+		ED2809D729A788B6006C7AB0 /* NSString+LYRegular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LYRegular.m"; sourceTree = "<group>"; };
+		ED2809D829A788B6006C7AB0 /* NSObject+LYDataConvertRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LYDataConvertRule.m"; sourceTree = "<group>"; };
+		ED2809D929A788B6006C7AB0 /* NSObject+LYSafetySet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LYSafetySet.m"; sourceTree = "<group>"; };
+		ED2809DA29A788B6006C7AB0 /* NSMutableArray+LYSafetySet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+LYSafetySet.m"; sourceTree = "<group>"; };
+		ED2809DB29A788B6006C7AB0 /* NSDictionary+LYSafetySet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LYSafetySet.m"; sourceTree = "<group>"; };
+		ED2809DC29A788B6006C7AB0 /* LYSaveDataType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSaveDataType.m; sourceTree = "<group>"; };
+		ED2809DD29A788B6006C7AB0 /* NSString+LYRegular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LYRegular.h"; sourceTree = "<group>"; };
+		ED2809DE29A788B6006C7AB0 /* NSObject+LYGetProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LYGetProperty.h"; sourceTree = "<group>"; };
+		ED2809DF29A788B6006C7AB0 /* LYDecimalNumberTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDecimalNumberTool.h; sourceTree = "<group>"; };
+		ED2809E029A788B6006C7AB0 /* NSString+LYDataConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LYDataConvert.h"; sourceTree = "<group>"; };
+		ED2809E129A788B6006C7AB0 /* LYSaveClassPrint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSaveClassPrint.h; sourceTree = "<group>"; };
+		ED2809E229A788B6006C7AB0 /* NSObject+LYDataConvertRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LYDataConvertRule.h"; sourceTree = "<group>"; };
+		ED2809E329A788B6006C7AB0 /* NSDictionary+LYSafetySet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LYSafetySet.h"; sourceTree = "<group>"; };
+		ED2809E429A788B6006C7AB0 /* NSMutableArray+LYSafetySet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+LYSafetySet.h"; sourceTree = "<group>"; };
+		ED2809E529A788B6006C7AB0 /* NSObject+LYSafetySet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LYSafetySet.h"; sourceTree = "<group>"; };
+		ED2809E629A788B6006C7AB0 /* LYSaveDataConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSaveDataConvert.h; sourceTree = "<group>"; };
+		ED2809E729A788B6006C7AB0 /* NSData+LYDataConvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+LYDataConvert.m"; sourceTree = "<group>"; };
+		ED2809E829A788B6006C7AB0 /* NSObject+LYToJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LYToJson.m"; sourceTree = "<group>"; };
+		ED2809E929A788B6006C7AB0 /* NSObject+LYToDic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LYToDic.m"; sourceTree = "<group>"; };
+		ED2809EA29A788B6006C7AB0 /* NSDictionary+LYDataConvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LYDataConvert.m"; sourceTree = "<group>"; };
+		ED2809EB29A788B6006C7AB0 /* NSObject+LYToModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LYToModel.h"; sourceTree = "<group>"; };
+		ED2809EC29A788B6006C7AB0 /* LYDataConvertConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDataConvertConfig.h; sourceTree = "<group>"; };
+		ED2809ED29A788B6006C7AB0 /* NSArray+LYDataConvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LYDataConvert.m"; sourceTree = "<group>"; };
+		ED2809EE29A788B6006C7AB0 /* NSData+LYDataConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+LYDataConvert.h"; sourceTree = "<group>"; };
+		ED2809EF29A788B6006C7AB0 /* LYSaveDataConvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSaveDataConvert.m; sourceTree = "<group>"; };
+		ED2809F029A788B6006C7AB0 /* NSObject+LYToModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LYToModel.m"; sourceTree = "<group>"; };
+		ED2809F129A788B6006C7AB0 /* NSDictionary+LYDataConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LYDataConvert.h"; sourceTree = "<group>"; };
+		ED2809F229A788B6006C7AB0 /* NSObject+LYToDic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LYToDic.h"; sourceTree = "<group>"; };
+		ED2809F329A788B6006C7AB0 /* NSObject+LYToJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LYToJson.h"; sourceTree = "<group>"; };
+		ED2809F429A788B6006C7AB0 /* NSArray+LYDataConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LYDataConvert.h"; sourceTree = "<group>"; };
+		ED2809F529A788B6006C7AB0 /* LYDataConvertConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDataConvertConfig.m; sourceTree = "<group>"; };
+		ED2809F629A788B6006C7AB0 /* USAGE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = USAGE.md; sourceTree = "<group>"; };
+		ED2809F729A788B6006C7AB0 /* LYDataHandleHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDataHandleHeaders.h; sourceTree = "<group>"; };
+		ED2809F829A788B6006C7AB0 /* LYDataHandleLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDataHandleLog.h; sourceTree = "<group>"; };
+		ED2809F929A788B6006C7AB0 /* LYDataHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDataHandle.h; sourceTree = "<group>"; };
+		ED2809FB29A788B6006C7AB0 /* LYClassArchived.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYClassArchived.h; sourceTree = "<group>"; };
+		ED2809FC29A788B6006C7AB0 /* NSObject+LYSQliteHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LYSQliteHandle.h"; sourceTree = "<group>"; };
+		ED2809FD29A788B6006C7AB0 /* LYDataStoreCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDataStoreCache.m; sourceTree = "<group>"; };
+		ED2809FE29A788B6006C7AB0 /* LYSQLResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSQLResult.m; sourceTree = "<group>"; };
+		ED2809FF29A788B6006C7AB0 /* LYDataStoreSQlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDataStoreSQlite.h; sourceTree = "<group>"; };
+		ED280A0029A788B6006C7AB0 /* LYDataStoreCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDataStoreCache.h; sourceTree = "<group>"; };
+		ED280A0129A788B6006C7AB0 /* NSObject+LYSQliteHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LYSQliteHandle.m"; sourceTree = "<group>"; };
+		ED280A0229A788B6006C7AB0 /* LYClassArchived.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYClassArchived.m; sourceTree = "<group>"; };
+		ED280A0329A788B6006C7AB0 /* LYSQLResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSQLResult.h; sourceTree = "<group>"; };
+		ED280A0429A788B6006C7AB0 /* LYDataStoreSQlite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDataStoreSQlite.m; sourceTree = "<group>"; };
 		EED818F060F79B4E27730E63F70FA820 /* WMGBusinessModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WMGBusinessModel.m; sourceTree = "<group>"; };
 		F0998B50A1C50446B087D56D9673D10E /* WMGTextLayoutRun.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WMGTextLayoutRun.m; sourceTree = "<group>"; };
 		F0FCF82F4D2B6080D7657EF91867D24E /* NSAttributedString+GCalculateAndDraw.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+GCalculateAndDraw.h"; sourceTree = "<group>"; };
@@ -1395,6 +1495,7 @@
 				7C03CD61586751A703BF33CA6A540FCA /* ly_hud_loading.png */,
 				F3F7D051B1FEEE76FCDCD68956703D4A /* ly_hud_loading_white.png */,
 				358F8C9905BC802F853528525B5C0575 /* ReplaceMe.m */,
+				ED2809CF29A788B6006C7AB0 /* LYDataHandle */,
 				ED28099929A7884D006C7AB0 /* LanYouTopTabsView */,
 				B8C49956F2CD7B3CD7E54031A1A9A9B6 /* CustomSegmented */,
 				B1A6E57902F3AF510987E709F8C4295A /* LanYouAlert */,
@@ -1807,6 +1908,88 @@
 			path = LYDCache;
 			sourceTree = "<group>";
 		};
+		ED2809CF29A788B6006C7AB0 /* LYDataHandle */ = {
+			isa = PBXGroup;
+			children = (
+				ED2809D029A788B6006C7AB0 /* LYDataConvert */,
+				ED2809F629A788B6006C7AB0 /* USAGE.md */,
+				ED2809F729A788B6006C7AB0 /* LYDataHandleHeaders.h */,
+				ED2809F829A788B6006C7AB0 /* LYDataHandleLog.h */,
+				ED2809F929A788B6006C7AB0 /* LYDataHandle.h */,
+				ED2809FA29A788B6006C7AB0 /* LYDataStore */,
+			);
+			name = LYDataHandle;
+			path = kyleLib/Classes/LYDataHandle;
+			sourceTree = "<group>";
+		};
+		ED2809D029A788B6006C7AB0 /* LYDataConvert */ = {
+			isa = PBXGroup;
+			children = (
+				ED2809D129A788B6006C7AB0 /* BaseTool */,
+				ED2809E629A788B6006C7AB0 /* LYSaveDataConvert.h */,
+				ED2809E729A788B6006C7AB0 /* NSData+LYDataConvert.m */,
+				ED2809E829A788B6006C7AB0 /* NSObject+LYToJson.m */,
+				ED2809E929A788B6006C7AB0 /* NSObject+LYToDic.m */,
+				ED2809EA29A788B6006C7AB0 /* NSDictionary+LYDataConvert.m */,
+				ED2809EB29A788B6006C7AB0 /* NSObject+LYToModel.h */,
+				ED2809EC29A788B6006C7AB0 /* LYDataConvertConfig.h */,
+				ED2809ED29A788B6006C7AB0 /* NSArray+LYDataConvert.m */,
+				ED2809EE29A788B6006C7AB0 /* NSData+LYDataConvert.h */,
+				ED2809EF29A788B6006C7AB0 /* LYSaveDataConvert.m */,
+				ED2809F029A788B6006C7AB0 /* NSObject+LYToModel.m */,
+				ED2809F129A788B6006C7AB0 /* NSDictionary+LYDataConvert.h */,
+				ED2809F229A788B6006C7AB0 /* NSObject+LYToDic.h */,
+				ED2809F329A788B6006C7AB0 /* NSObject+LYToJson.h */,
+				ED2809F429A788B6006C7AB0 /* NSArray+LYDataConvert.h */,
+				ED2809F529A788B6006C7AB0 /* LYDataConvertConfig.m */,
+			);
+			path = LYDataConvert;
+			sourceTree = "<group>";
+		};
+		ED2809D129A788B6006C7AB0 /* BaseTool */ = {
+			isa = PBXGroup;
+			children = (
+				ED2809D229A788B6006C7AB0 /* LYSaveDataType.h */,
+				ED2809D329A788B6006C7AB0 /* LYSaveClassPrint.m */,
+				ED2809D429A788B6006C7AB0 /* NSString+LYDataConvert.m */,
+				ED2809D529A788B6006C7AB0 /* NSObject+LYGetProperty.m */,
+				ED2809D629A788B6006C7AB0 /* LYDecimalNumberTool.m */,
+				ED2809D729A788B6006C7AB0 /* NSString+LYRegular.m */,
+				ED2809D829A788B6006C7AB0 /* NSObject+LYDataConvertRule.m */,
+				ED2809D929A788B6006C7AB0 /* NSObject+LYSafetySet.m */,
+				ED2809DA29A788B6006C7AB0 /* NSMutableArray+LYSafetySet.m */,
+				ED2809DB29A788B6006C7AB0 /* NSDictionary+LYSafetySet.m */,
+				ED2809DC29A788B6006C7AB0 /* LYSaveDataType.m */,
+				ED2809DD29A788B6006C7AB0 /* NSString+LYRegular.h */,
+				ED2809DE29A788B6006C7AB0 /* NSObject+LYGetProperty.h */,
+				ED2809DF29A788B6006C7AB0 /* LYDecimalNumberTool.h */,
+				ED2809E029A788B6006C7AB0 /* NSString+LYDataConvert.h */,
+				ED2809E129A788B6006C7AB0 /* LYSaveClassPrint.h */,
+				ED2809E229A788B6006C7AB0 /* NSObject+LYDataConvertRule.h */,
+				ED2809E329A788B6006C7AB0 /* NSDictionary+LYSafetySet.h */,
+				ED2809E429A788B6006C7AB0 /* NSMutableArray+LYSafetySet.h */,
+				ED2809E529A788B6006C7AB0 /* NSObject+LYSafetySet.h */,
+			);
+			path = BaseTool;
+			sourceTree = "<group>";
+		};
+		ED2809FA29A788B6006C7AB0 /* LYDataStore */ = {
+			isa = PBXGroup;
+			children = (
+				ED2809FB29A788B6006C7AB0 /* LYClassArchived.h */,
+				ED2809FC29A788B6006C7AB0 /* NSObject+LYSQliteHandle.h */,
+				ED2809FD29A788B6006C7AB0 /* LYDataStoreCache.m */,
+				ED2809FE29A788B6006C7AB0 /* LYSQLResult.m */,
+				ED2809FF29A788B6006C7AB0 /* LYDataStoreSQlite.h */,
+				ED280A0029A788B6006C7AB0 /* LYDataStoreCache.h */,
+				ED280A0129A788B6006C7AB0 /* NSObject+LYSQliteHandle.m */,
+				ED280A0229A788B6006C7AB0 /* LYClassArchived.m */,
+				ED280A0329A788B6006C7AB0 /* LYSQLResult.h */,
+				ED280A0429A788B6006C7AB0 /* LYDataStoreSQlite.m */,
+			);
+			path = LYDataStore;
+			sourceTree = "<group>";
+		};
 		F59926ACB7EC72BF9BFBFCA117D50CCA /* LYEmptyDefaultView */ = {
 			isa = PBXGroup;
 			children = (
@@ -1847,6 +2030,7 @@
 			files = (
 				50139F9CA12EA0F06B0AF95408EC9CFA /* CMCustomeSegmentControlView.h in Headers */,
 				B3A9754A2B360BF41D613431AC408499 /* CMStatableView.h in Headers */,
+				ED280A1429A788B6006C7AB0 /* LYSaveClassPrint.h in Headers */,
 				83C3F907F5757F394C9A856191BEF467 /* CMStateView.h in Headers */,
 				78EC5BBB9609F0DC8F81BAC67B212F19 /* IGAlertProtocol.h in Headers */,
 				382B72B5ABA579F9A7453922BE1CE180 /* kyleLib-umbrella.h in Headers */,
@@ -1861,15 +2045,22 @@
 				109FA43666466B0702B692F4316E105F /* LYEmptyViewType.h in Headers */,
 				05CD55F4FF75D0E88037B1CC92E3A4D3 /* LYProgressHUD.h in Headers */,
 				54B0663BB6F5E4FF91491D3AF5A1A691 /* LYProgressHUD+CustomLoading.h in Headers */,
+				ED280A2C29A788B6006C7AB0 /* LYDataHandle.h in Headers */,
 				ED2809B929A7884D006C7AB0 /* CMDSlideTabbarItemArgs.h in Headers */,
 				ED2809C429A7884D006C7AB0 /* CMDScrollTabbarView.h in Headers */,
 				ED2809BF29A7884D006C7AB0 /* CMDTabedSlideView.h in Headers */,
 				CE81DE548D6C0D40D2B585AE9641AEA1 /* MBProgressHUD+Touch.h in Headers */,
 				29FB082BBB6B8B2336080E16ABC397A5 /* NSAttributedString+GCalculateAndDraw.h in Headers */,
+				ED280A2D29A788B6006C7AB0 /* LYClassArchived.h in Headers */,
 				EAADC2F9FBDA1CFD49C7DD4BD1EA078D /* NSMutableAttributedString+GTextProperty.h in Headers */,
 				3FF1653D57FE3CDA536497C27C0687F6 /* NSObject+Graver.h in Headers */,
+				ED280A1129A788B6006C7AB0 /* NSObject+LYGetProperty.h in Headers */,
+				ED280A1029A788B6006C7AB0 /* NSString+LYRegular.h in Headers */,
+				ED280A2A29A788B6006C7AB0 /* LYDataHandleHeaders.h in Headers */,
 				9BA34F0E07BE2FA390E94237737A5D56 /* UIBezierPath+Graver.h in Headers */,
+				ED280A1F29A788B6006C7AB0 /* LYDataConvertConfig.h in Headers */,
 				5A99521A467D63A8B9CE33410817B577 /* UIDevice+Graver.h in Headers */,
+				ED280A1E29A788B6006C7AB0 /* NSObject+LYToModel.h in Headers */,
 				94FB8966E372C2A23997960008FAE1BC /* UIFont+Graver.h in Headers */,
 				AB588E17867F09C2F567AAED5914660F /* UIImage+Graver.h in Headers */,
 				D92497520AC8E059E58BA65277984069 /* UIImage+HUD.h in Headers */,
@@ -1880,26 +2071,39 @@
 				D5E328383D3FCB114C92B163EAE3DAB2 /* WMGActiveRange.h in Headers */,
 				ED2809CB29A7884D006C7AB0 /* CMDLRUCache.h in Headers */,
 				3E9FBDC6C429EE4D5422CE8B769F3E20 /* WMGAsyncDrawLayer.h in Headers */,
+				ED280A1829A788B6006C7AB0 /* NSObject+LYSafetySet.h in Headers */,
+				ED280A1229A788B6006C7AB0 /* LYDecimalNumberTool.h in Headers */,
+				ED280A2129A788B6006C7AB0 /* NSData+LYDataConvert.h in Headers */,
+				ED280A1929A788B6006C7AB0 /* LYSaveDataConvert.h in Headers */,
+				ED280A2429A788B6006C7AB0 /* NSDictionary+LYDataConvert.h in Headers */,
 				5EB6E9B79E2AE594F095358EBFEAB5FF /* WMGAsyncDrawView.h in Headers */,
 				D0151297512689BCD1CC264F79AC1DC3 /* WMGAttachment.h in Headers */,
+				ED280A3529A788B6006C7AB0 /* LYSQLResult.h in Headers */,
 				19B574543E3469B63D56BEB4F30C7C29 /* WMGBaseCell.h in Headers */,
 				A651AD1CD5EE2B14B264D1715C75092C /* WMGBaseCellData.h in Headers */,
 				37E14EA7F3C243E40441D3005C036DF6 /* WMGBaseEngine.h in Headers */,
+				ED280A2729A788B6006C7AB0 /* NSArray+LYDataConvert.h in Headers */,
+				ED280A1729A788B6006C7AB0 /* NSMutableArray+LYSafetySet.h in Headers */,
 				66C7EE714256D2C2DD47722F1F15D2AD /* WMGBaseViewModel.h in Headers */,
 				ED2809C529A7884D006C7AB0 /* CMDSlideTabbarProtocol.h in Headers */,
 				ED2809C129A7884D006C7AB0 /* CMDSlideView.h in Headers */,
 				ED2809CD29A7884D006C7AB0 /* CMDCacheProtocol.h in Headers */,
+				ED280A0529A788B6006C7AB0 /* LYSaveDataType.h in Headers */,
 				1E4400984178D81C7D7C4E3FB59B1D2D /* WMGBusinessModel.h in Headers */,
 				3DFFD4CC53A2DC7661DD6DE8B9ED385F /* WMGCanvasControl.h in Headers */,
+				ED280A2629A788B6006C7AB0 /* NSObject+LYToJson.h in Headers */,
 				A2966875D90C855950EAD0BEE9EF488A /* WMGCanvasView.h in Headers */,
 				ED2809B829A7884D006C7AB0 /* LanYouDiscoverCommon.h in Headers */,
 				3C7AE2873814723B9EE02FF06A4EE42B /* WMGClientData.h in Headers */,
+				ED280A1329A788B6006C7AB0 /* NSString+LYDataConvert.h in Headers */,
 				CD897C943A53DA3243194575AF879E15 /* WMGContextAssisant.h in Headers */,
 				5E553DBDF50E0265815DAE53546B641C /* WMGFontMetrics.h in Headers */,
 				2B61D830CB9F0D4878D018A6E3942CB1 /* WMGImage.h in Headers */,
+				ED280A2529A788B6006C7AB0 /* NSObject+LYToDic.h in Headers */,
 				B5E8CBE0636AB8AA57B2E20FFC0AF308 /* WMGMixedView.h in Headers */,
 				26814503CCC4C44B3A9EDE4CB9F1B0AA /* WMGraverMacroDefine.h in Headers */,
 				A044A951B04EE9DEF748331841BF8AAA /* WMGResultSet.h in Headers */,
+				ED280A1529A788B6006C7AB0 /* NSObject+LYDataConvertRule.h in Headers */,
 				EF298CB7040CBFA5E05465F7FC054473 /* WMGTextActiveRange.h in Headers */,
 				DFD776DB21B89DC700FC00F7802B8F79 /* WMGTextAttachment.h in Headers */,
 				FBC0ECF1EADB5402038C8F14F64A2573 /* WMGTextAttachment+Event.h in Headers */,
@@ -1910,12 +2114,17 @@
 				3C791AE18180042D725F18E8AA97C017 /* WMGTextDrawer+Private.h in Headers */,
 				45F25FEBD69F4DD5A7269B8B17EA64FD /* WMGTextLayout.h in Headers */,
 				5AA698406E5B4F77A08DD4E01EB260AB /* WMGTextLayout+Coordinate.h in Headers */,
+				ED280A2E29A788B6006C7AB0 /* NSObject+LYSQliteHandle.h in Headers */,
 				EB7916B522964A153478973EE367667E /* WMGTextLayoutFrame.h in Headers */,
 				ED2809C629A7884D006C7AB0 /* CMDFixedTabbarView.h in Headers */,
+				ED280A1629A788B6006C7AB0 /* NSDictionary+LYSafetySet.h in Headers */,
 				D426DB00B7886B518C9D761932A1C3BE /* WMGTextLayoutLine.h in Headers */,
 				30233C7342F34C8D490109BEB085E572 /* WMGTextLayoutRun.h in Headers */,
 				ED2809C029A7884D006C7AB0 /* CMDUtility.h in Headers */,
+				ED280A3229A788B6006C7AB0 /* LYDataStoreCache.h in Headers */,
+				ED280A3129A788B6006C7AB0 /* LYDataStoreSQlite.h in Headers */,
 				542A495420415C4C0BDE82C7822D7BDD /* WMGTextParagraphStyle.h in Headers */,
+				ED280A2B29A788B6006C7AB0 /* LYDataHandleLog.h in Headers */,
 				0FFBA6459B0920F32FB5D65B4D57A7E7 /* WMGVisionObject.h in Headers */,
 				B8D1A3B46006B43197E1D5293E9184FB /* WMMutableAttributedItem.h in Headers */,
 			);
@@ -2305,6 +2514,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED280A2929A788B6006C7AB0 /* USAGE.md in Resources */,
 				0C2D53DC48BE78045D8F4F830983263A /* kyleLib.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2369,14 +2579,22 @@
 				9314ADDDA0D67087B5124354F0EE570B /* kyleLib-dummy.m in Sources */,
 				78221BADC07E419F126A03D0CAE4E046 /* LanYouAlert.m in Sources */,
 				805EB88FF9E478E3AE6C9BBC5F21CB3F /* LYEmptyDefaultView.m in Sources */,
+				ED280A0E29A788B6006C7AB0 /* NSDictionary+LYSafetySet.m in Sources */,
+				ED280A0B29A788B6006C7AB0 /* NSObject+LYDataConvertRule.m in Sources */,
+				ED280A0C29A788B6006C7AB0 /* NSObject+LYSafetySet.m in Sources */,
 				446FD647E661345738813AF7744C1D43 /* LYEmptyView.m in Sources */,
 				A224572B89B2B6B2A4DB2B88350895D0 /* LYEmptyViewLabel.m in Sources */,
 				C249541D54D1746089AD080F9DC5C9EE /* LYEmptyViewRequest.m in Sources */,
 				38760A54EC9FD38C45E080EE4AD11802 /* LYProgressHUD.m in Sources */,
 				9B8DA2B283D08B43C9ECC38121EC7677 /* LYProgressHUD+CustomLoading.m in Sources */,
+				ED280A0929A788B6006C7AB0 /* LYDecimalNumberTool.m in Sources */,
+				ED280A2F29A788B6006C7AB0 /* LYDataStoreCache.m in Sources */,
 				6CA799786A218E2A6092F0091F64040D /* MBProgressHUD+Touch.m in Sources */,
 				ED2809C229A7884D006C7AB0 /* CMDScrollTabbarView.m in Sources */,
+				ED280A0F29A788B6006C7AB0 /* LYSaveDataType.m in Sources */,
 				3F309EF71521724B41C3C7B71590E43C /* NSAttributedString+GCalculateAndDraw.m in Sources */,
+				ED280A1B29A788B6006C7AB0 /* NSObject+LYToJson.m in Sources */,
+				ED280A0D29A788B6006C7AB0 /* NSMutableArray+LYSafetySet.m in Sources */,
 				0D6FA5C397B901D3E2144392D2C9676A /* NSMutableAttributedString+GTextProperty.m in Sources */,
 				73260E4BD58F7E01946C1371F36205F2 /* NSObject+Graver.m in Sources */,
 				4ABF15B19C8012FA0E432DF28C148527 /* ReplaceMe.m in Sources */,
@@ -2385,18 +2603,23 @@
 				7A7DBE9A13DAE2F11EFF11DAD56FB8A3 /* UIFont+Graver.m in Sources */,
 				208CC2BD70E3D5C70A918062BF9B4612 /* UIImage+Graver.m in Sources */,
 				71768393178D758AE5C73D085F5F1FAD /* UIImage+HUD.m in Sources */,
+				ED280A2229A788B6006C7AB0 /* LYSaveDataConvert.m in Sources */,
 				BE019233457E5AC65FC8ADAE6171A419 /* UIView+LYEmptyView.m in Sources */,
 				ED2809CC29A7884D006C7AB0 /* CMDLRUCache.m in Sources */,
 				ED2809BE29A7884D006C7AB0 /* CMDSlideTabbarItem.m in Sources */,
 				F35B066B69D65A2B0AA3FE1459F110A0 /* UIViewController+CMStateViewController.m in Sources */,
+				ED280A2829A788B6006C7AB0 /* LYDataConvertConfig.m in Sources */,
 				ED2809BC29A7884D006C7AB0 /* CMDSlideTabbarItemArgs.m in Sources */,
 				C18BE7F8F06081B17545315DA7607CED /* WMGAsyncDrawLayer.m in Sources */,
 				A627BE5D1C5BD2627F727E66C50C9452 /* WMGAsyncDrawView.m in Sources */,
 				075BE826B40E200C910E26A9CE84678F /* WMGBaseCell.m in Sources */,
 				0A6AF8764E64B6319D80B5A1B723654F /* WMGBaseCellData.m in Sources */,
 				ED2809C929A7884D006C7AB0 /* CMDTabedSlideView.m in Sources */,
+				ED280A2029A788B6006C7AB0 /* NSArray+LYDataConvert.m in Sources */,
+				ED280A0A29A788B6006C7AB0 /* NSString+LYRegular.m in Sources */,
 				E0C67B06A5520F1F2CD1656B6A1764FD /* WMGBaseEngine.m in Sources */,
 				F9918473C7F14C3A674956897D3BCA83 /* WMGBaseViewModel.m in Sources */,
+				ED280A1C29A788B6006C7AB0 /* NSObject+LYToDic.m in Sources */,
 				0B79EE19036B925E6FE58BFF2B0750A5 /* WMGBusinessModel.m in Sources */,
 				ED2809C829A7884D006C7AB0 /* CMDUtility.m in Sources */,
 				5468F93FB13F1F860669DFBE156A98CC /* WMGCanvasControl.m in Sources */,
@@ -2404,10 +2627,15 @@
 				0512562B02338E6CEF449740D0FF275E /* WMGContextAssisant.m in Sources */,
 				177688379AC044AF9C7F411CAD1C92A0 /* WMGFontMetrics.m in Sources */,
 				7F8B0AF8AB79FE2D44FEADAB823CCAC8 /* WMGImage.m in Sources */,
+				ED280A1A29A788B6006C7AB0 /* NSData+LYDataConvert.m in Sources */,
+				ED280A0829A788B6006C7AB0 /* NSObject+LYGetProperty.m in Sources */,
 				33A63FA87041B6436915A857A680258C /* WMGMixedView.m in Sources */,
+				ED280A1D29A788B6006C7AB0 /* NSDictionary+LYDataConvert.m in Sources */,
 				95D6C326A669819C2D60F68F6824061C /* WMGResultSet.m in Sources */,
 				F9B23FF74F5B9C29EAC74C63C74905BA /* WMGTextActiveRange.m in Sources */,
 				D441ECDB31891D2554D62A1B69BA5794 /* WMGTextAttachment.m in Sources */,
+				ED280A3329A788B6006C7AB0 /* NSObject+LYSQliteHandle.m in Sources */,
+				ED280A3629A788B6006C7AB0 /* LYDataStoreSQlite.m in Sources */,
 				1C43E6F9C3D17F12D50450CC5FA6B255 /* WMGTextDrawer.m in Sources */,
 				9B1B183C1866088481FF8D592933567E /* WMGTextDrawer+Coordinate.m in Sources */,
 				3DF61B0BA50902974DB930821A42B248 /* WMGTextDrawer+Debug.m in Sources */,
@@ -2417,11 +2645,16 @@
 				ED2809C329A7884D006C7AB0 /* CMDFixedTabbarView.m in Sources */,
 				2661EB5F677860425E0A39A9F93DE9A2 /* WMGTextLayoutLine.m in Sources */,
 				ED2809C729A7884D006C7AB0 /* CMDCustomSlideView.m in Sources */,
+				ED280A2329A788B6006C7AB0 /* NSObject+LYToModel.m in Sources */,
 				73E7E490407C24CE29FE2AF4A6566E05 /* WMGTextLayoutRun.m in Sources */,
 				5110EFFA84346308BA81CB7C61ECC44F /* WMGTextParagraphStyle.m in Sources */,
 				26EBA1C4BE1D275221822438103F8ABD /* WMGVisionObject.m in Sources */,
 				241C8D6C809A7F7C9E64D67DA511D483 /* WMMutableAttributedItem.m in Sources */,
+				ED280A0729A788B6006C7AB0 /* NSString+LYDataConvert.m in Sources */,
+				ED280A3029A788B6006C7AB0 /* LYSQLResult.m in Sources */,
 				ED2809CA29A7884D006C7AB0 /* CMDSlideView.m in Sources */,
+				ED280A3429A788B6006C7AB0 /* LYClassArchived.m in Sources */,
+				ED280A0629A788B6006C7AB0 /* LYSaveClassPrint.m in Sources */,
 				ED2809BD29A7884D006C7AB0 /* CMDSlideTabbarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
