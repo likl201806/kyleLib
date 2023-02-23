@@ -335,6 +335,30 @@
 		EB4D07B651D794A1ED575E938B01DFB4 /* SDAnimatedImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = BA42F53559242035082068A1C66682E0 /* SDAnimatedImageRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB7916B522964A153478973EE367667E /* WMGTextLayoutFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AE2B6A9B9064111D99F94A3EAF979C8 /* WMGTextLayoutFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED0B81FF1DEC0B138947EA93D22E5A4E /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B037A684DACDA6E368EF97E9311F9796 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED2809B729A7884D006C7AB0 /* LanYouKLTopTabsView.h in Headers */ = {isa = PBXBuildFile; fileRef = ED28099B29A7884D006C7AB0 /* LanYouKLTopTabsView.h */; };
+		ED2809B829A7884D006C7AB0 /* LanYouDiscoverCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = ED28099C29A7884D006C7AB0 /* LanYouDiscoverCommon.h */; };
+		ED2809B929A7884D006C7AB0 /* CMDSlideTabbarItemArgs.h in Headers */ = {isa = PBXBuildFile; fileRef = ED28099E29A7884D006C7AB0 /* CMDSlideTabbarItemArgs.h */; };
+		ED2809BA29A7884D006C7AB0 /* CMDSlideTabbarView.h in Headers */ = {isa = PBXBuildFile; fileRef = ED28099F29A7884D006C7AB0 /* CMDSlideTabbarView.h */; };
+		ED2809BB29A7884D006C7AB0 /* CMDSlideTabbarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809A029A7884D006C7AB0 /* CMDSlideTabbarItem.h */; };
+		ED2809BC29A7884D006C7AB0 /* CMDSlideTabbarItemArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809A129A7884D006C7AB0 /* CMDSlideTabbarItemArgs.m */; };
+		ED2809BD29A7884D006C7AB0 /* CMDSlideTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809A229A7884D006C7AB0 /* CMDSlideTabbarView.m */; };
+		ED2809BE29A7884D006C7AB0 /* CMDSlideTabbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809A329A7884D006C7AB0 /* CMDSlideTabbarItem.m */; };
+		ED2809BF29A7884D006C7AB0 /* CMDTabedSlideView.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809A529A7884D006C7AB0 /* CMDTabedSlideView.h */; };
+		ED2809C029A7884D006C7AB0 /* CMDUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809A629A7884D006C7AB0 /* CMDUtility.h */; };
+		ED2809C129A7884D006C7AB0 /* CMDSlideView.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809A729A7884D006C7AB0 /* CMDSlideView.h */; };
+		ED2809C229A7884D006C7AB0 /* CMDScrollTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809A929A7884D006C7AB0 /* CMDScrollTabbarView.m */; };
+		ED2809C329A7884D006C7AB0 /* CMDFixedTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809AA29A7884D006C7AB0 /* CMDFixedTabbarView.m */; };
+		ED2809C429A7884D006C7AB0 /* CMDScrollTabbarView.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809AB29A7884D006C7AB0 /* CMDScrollTabbarView.h */; };
+		ED2809C529A7884D006C7AB0 /* CMDSlideTabbarProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809AC29A7884D006C7AB0 /* CMDSlideTabbarProtocol.h */; };
+		ED2809C629A7884D006C7AB0 /* CMDFixedTabbarView.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809AD29A7884D006C7AB0 /* CMDFixedTabbarView.h */; };
+		ED2809C729A7884D006C7AB0 /* CMDCustomSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809AE29A7884D006C7AB0 /* CMDCustomSlideView.m */; };
+		ED2809C829A7884D006C7AB0 /* CMDUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809AF29A7884D006C7AB0 /* CMDUtility.m */; };
+		ED2809C929A7884D006C7AB0 /* CMDTabedSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809B029A7884D006C7AB0 /* CMDTabedSlideView.m */; };
+		ED2809CA29A7884D006C7AB0 /* CMDSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809B129A7884D006C7AB0 /* CMDSlideView.m */; };
+		ED2809CB29A7884D006C7AB0 /* CMDLRUCache.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809B329A7884D006C7AB0 /* CMDLRUCache.h */; };
+		ED2809CC29A7884D006C7AB0 /* CMDLRUCache.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2809B429A7884D006C7AB0 /* CMDLRUCache.m */; };
+		ED2809CD29A7884D006C7AB0 /* CMDCacheProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809B529A7884D006C7AB0 /* CMDCacheProtocol.h */; };
+		ED2809CE29A7884D006C7AB0 /* CMDCustomSlideView.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2809B629A7884D006C7AB0 /* CMDCustomSlideView.h */; };
 		EE3B8613CDD20D58260C22D21BC61F38 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A624813C76604B1CD7295C942586B8A /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF298CB7040CBFA5E05465F7FC054473 /* WMGTextActiveRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 75473C2DF894D5F0A6B9014AD0B855F5 /* WMGTextActiveRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF32A7770C709AE3BF48B0EEB15D92CB /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 1545CD2AA3AB04AC99C83F3EAE50348F /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -798,6 +822,30 @@
 		E7A9A23DC74DCC7CDC557BF7A1618B5A /* SDImageLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageLoader.h; path = SDWebImage/Core/SDImageLoader.h; sourceTree = "<group>"; };
 		E8D6D9E0DA386B32C4B976D9F36E9C1E /* UIImage+HUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+HUD.h"; sourceTree = "<group>"; };
 		EAA335FBF4072864BD15F024DA0BA656 /* UIImage+HUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HUD.m"; sourceTree = "<group>"; };
+		ED28099B29A7884D006C7AB0 /* LanYouKLTopTabsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanYouKLTopTabsView.h; sourceTree = "<group>"; };
+		ED28099C29A7884D006C7AB0 /* LanYouDiscoverCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanYouDiscoverCommon.h; sourceTree = "<group>"; };
+		ED28099E29A7884D006C7AB0 /* CMDSlideTabbarItemArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDSlideTabbarItemArgs.h; sourceTree = "<group>"; };
+		ED28099F29A7884D006C7AB0 /* CMDSlideTabbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDSlideTabbarView.h; sourceTree = "<group>"; };
+		ED2809A029A7884D006C7AB0 /* CMDSlideTabbarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDSlideTabbarItem.h; sourceTree = "<group>"; };
+		ED2809A129A7884D006C7AB0 /* CMDSlideTabbarItemArgs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDSlideTabbarItemArgs.m; sourceTree = "<group>"; };
+		ED2809A229A7884D006C7AB0 /* CMDSlideTabbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDSlideTabbarView.m; sourceTree = "<group>"; };
+		ED2809A329A7884D006C7AB0 /* CMDSlideTabbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDSlideTabbarItem.m; sourceTree = "<group>"; };
+		ED2809A529A7884D006C7AB0 /* CMDTabedSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDTabedSlideView.h; sourceTree = "<group>"; };
+		ED2809A629A7884D006C7AB0 /* CMDUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDUtility.h; sourceTree = "<group>"; };
+		ED2809A729A7884D006C7AB0 /* CMDSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDSlideView.h; sourceTree = "<group>"; };
+		ED2809A929A7884D006C7AB0 /* CMDScrollTabbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDScrollTabbarView.m; sourceTree = "<group>"; };
+		ED2809AA29A7884D006C7AB0 /* CMDFixedTabbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDFixedTabbarView.m; sourceTree = "<group>"; };
+		ED2809AB29A7884D006C7AB0 /* CMDScrollTabbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDScrollTabbarView.h; sourceTree = "<group>"; };
+		ED2809AC29A7884D006C7AB0 /* CMDSlideTabbarProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDSlideTabbarProtocol.h; sourceTree = "<group>"; };
+		ED2809AD29A7884D006C7AB0 /* CMDFixedTabbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDFixedTabbarView.h; sourceTree = "<group>"; };
+		ED2809AE29A7884D006C7AB0 /* CMDCustomSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDCustomSlideView.m; sourceTree = "<group>"; };
+		ED2809AF29A7884D006C7AB0 /* CMDUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDUtility.m; sourceTree = "<group>"; };
+		ED2809B029A7884D006C7AB0 /* CMDTabedSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDTabedSlideView.m; sourceTree = "<group>"; };
+		ED2809B129A7884D006C7AB0 /* CMDSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDSlideView.m; sourceTree = "<group>"; };
+		ED2809B329A7884D006C7AB0 /* CMDLRUCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDLRUCache.h; sourceTree = "<group>"; };
+		ED2809B429A7884D006C7AB0 /* CMDLRUCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDLRUCache.m; sourceTree = "<group>"; };
+		ED2809B529A7884D006C7AB0 /* CMDCacheProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDCacheProtocol.h; sourceTree = "<group>"; };
+		ED2809B629A7884D006C7AB0 /* CMDCustomSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDCustomSlideView.h; sourceTree = "<group>"; };
 		EED818F060F79B4E27730E63F70FA820 /* WMGBusinessModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WMGBusinessModel.m; sourceTree = "<group>"; };
 		F0998B50A1C50446B087D56D9673D10E /* WMGTextLayoutRun.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WMGTextLayoutRun.m; sourceTree = "<group>"; };
 		F0FCF82F4D2B6080D7657EF91867D24E /* NSAttributedString+GCalculateAndDraw.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+GCalculateAndDraw.h"; sourceTree = "<group>"; };
@@ -1347,6 +1395,7 @@
 				7C03CD61586751A703BF33CA6A540FCA /* ly_hud_loading.png */,
 				F3F7D051B1FEEE76FCDCD68956703D4A /* ly_hud_loading_white.png */,
 				358F8C9905BC802F853528525B5C0575 /* ReplaceMe.m */,
+				ED28099929A7884D006C7AB0 /* LanYouTopTabsView */,
 				B8C49956F2CD7B3CD7E54031A1A9A9B6 /* CustomSegmented */,
 				B1A6E57902F3AF510987E709F8C4295A /* LanYouAlert */,
 				020EDDD14442596562F6604E4D735AA3 /* LanYouEmptyView */,
@@ -1686,6 +1735,78 @@
 			path = Accessory;
 			sourceTree = "<group>";
 		};
+		ED28099929A7884D006C7AB0 /* LanYouTopTabsView */ = {
+			isa = PBXGroup;
+			children = (
+				ED28099A29A7884D006C7AB0 /* Config */,
+				ED28099D29A7884D006C7AB0 /* LYDSlideTabbarView */,
+				ED2809A429A7884D006C7AB0 /* LYDSlideView */,
+			);
+			name = LanYouTopTabsView;
+			path = kyleLib/Classes/LanYouTopTabsView;
+			sourceTree = "<group>";
+		};
+		ED28099A29A7884D006C7AB0 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				ED28099B29A7884D006C7AB0 /* LanYouKLTopTabsView.h */,
+				ED28099C29A7884D006C7AB0 /* LanYouDiscoverCommon.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		ED28099D29A7884D006C7AB0 /* LYDSlideTabbarView */ = {
+			isa = PBXGroup;
+			children = (
+				ED28099E29A7884D006C7AB0 /* CMDSlideTabbarItemArgs.h */,
+				ED28099F29A7884D006C7AB0 /* CMDSlideTabbarView.h */,
+				ED2809A029A7884D006C7AB0 /* CMDSlideTabbarItem.h */,
+				ED2809A129A7884D006C7AB0 /* CMDSlideTabbarItemArgs.m */,
+				ED2809A229A7884D006C7AB0 /* CMDSlideTabbarView.m */,
+				ED2809A329A7884D006C7AB0 /* CMDSlideTabbarItem.m */,
+			);
+			path = LYDSlideTabbarView;
+			sourceTree = "<group>";
+		};
+		ED2809A429A7884D006C7AB0 /* LYDSlideView */ = {
+			isa = PBXGroup;
+			children = (
+				ED2809A529A7884D006C7AB0 /* CMDTabedSlideView.h */,
+				ED2809A629A7884D006C7AB0 /* CMDUtility.h */,
+				ED2809A729A7884D006C7AB0 /* CMDSlideView.h */,
+				ED2809A829A7884D006C7AB0 /* LYDTabbarView */,
+				ED2809AE29A7884D006C7AB0 /* CMDCustomSlideView.m */,
+				ED2809AF29A7884D006C7AB0 /* CMDUtility.m */,
+				ED2809B029A7884D006C7AB0 /* CMDTabedSlideView.m */,
+				ED2809B129A7884D006C7AB0 /* CMDSlideView.m */,
+				ED2809B229A7884D006C7AB0 /* LYDCache */,
+				ED2809B629A7884D006C7AB0 /* CMDCustomSlideView.h */,
+			);
+			path = LYDSlideView;
+			sourceTree = "<group>";
+		};
+		ED2809A829A7884D006C7AB0 /* LYDTabbarView */ = {
+			isa = PBXGroup;
+			children = (
+				ED2809A929A7884D006C7AB0 /* CMDScrollTabbarView.m */,
+				ED2809AA29A7884D006C7AB0 /* CMDFixedTabbarView.m */,
+				ED2809AB29A7884D006C7AB0 /* CMDScrollTabbarView.h */,
+				ED2809AC29A7884D006C7AB0 /* CMDSlideTabbarProtocol.h */,
+				ED2809AD29A7884D006C7AB0 /* CMDFixedTabbarView.h */,
+			);
+			path = LYDTabbarView;
+			sourceTree = "<group>";
+		};
+		ED2809B229A7884D006C7AB0 /* LYDCache */ = {
+			isa = PBXGroup;
+			children = (
+				ED2809B329A7884D006C7AB0 /* CMDLRUCache.h */,
+				ED2809B429A7884D006C7AB0 /* CMDLRUCache.m */,
+				ED2809B529A7884D006C7AB0 /* CMDCacheProtocol.h */,
+			);
+			path = LYDCache;
+			sourceTree = "<group>";
+		};
 		F59926ACB7EC72BF9BFBFCA117D50CCA /* LYEmptyDefaultView */ = {
 			isa = PBXGroup;
 			children = (
@@ -1734,10 +1855,15 @@
 				9A6D71CE0AE3BED2E8B47F973818571A /* LYEmptyDefaultView.h in Headers */,
 				8FB42A57B3A9AD49ECDEE63A75F05750 /* LYEmptyView.h in Headers */,
 				AF7CB6540043CDDCB32566B529B74E09 /* LYEmptyViewLabel.h in Headers */,
+				ED2809BB29A7884D006C7AB0 /* CMDSlideTabbarItem.h in Headers */,
+				ED2809B729A7884D006C7AB0 /* LanYouKLTopTabsView.h in Headers */,
 				955517D81B8955553979739E79575C80 /* LYEmptyViewRequest.h in Headers */,
 				109FA43666466B0702B692F4316E105F /* LYEmptyViewType.h in Headers */,
 				05CD55F4FF75D0E88037B1CC92E3A4D3 /* LYProgressHUD.h in Headers */,
 				54B0663BB6F5E4FF91491D3AF5A1A691 /* LYProgressHUD+CustomLoading.h in Headers */,
+				ED2809B929A7884D006C7AB0 /* CMDSlideTabbarItemArgs.h in Headers */,
+				ED2809C429A7884D006C7AB0 /* CMDScrollTabbarView.h in Headers */,
+				ED2809BF29A7884D006C7AB0 /* CMDTabedSlideView.h in Headers */,
 				CE81DE548D6C0D40D2B585AE9641AEA1 /* MBProgressHUD+Touch.h in Headers */,
 				29FB082BBB6B8B2336080E16ABC397A5 /* NSAttributedString+GCalculateAndDraw.h in Headers */,
 				EAADC2F9FBDA1CFD49C7DD4BD1EA078D /* NSMutableAttributedString+GTextProperty.h in Headers */,
@@ -1748,8 +1874,11 @@
 				AB588E17867F09C2F567AAED5914660F /* UIImage+Graver.h in Headers */,
 				D92497520AC8E059E58BA65277984069 /* UIImage+HUD.h in Headers */,
 				92CF51D1F8467FBEF855F6B58EAACEE9 /* UIView+LYEmptyView.h in Headers */,
+				ED2809CE29A7884D006C7AB0 /* CMDCustomSlideView.h in Headers */,
+				ED2809BA29A7884D006C7AB0 /* CMDSlideTabbarView.h in Headers */,
 				D8244B8ED35AA3A4F704D10BC5872693 /* UIViewController+CMStateViewController.h in Headers */,
 				D5E328383D3FCB114C92B163EAE3DAB2 /* WMGActiveRange.h in Headers */,
+				ED2809CB29A7884D006C7AB0 /* CMDLRUCache.h in Headers */,
 				3E9FBDC6C429EE4D5422CE8B769F3E20 /* WMGAsyncDrawLayer.h in Headers */,
 				5EB6E9B79E2AE594F095358EBFEAB5FF /* WMGAsyncDrawView.h in Headers */,
 				D0151297512689BCD1CC264F79AC1DC3 /* WMGAttachment.h in Headers */,
@@ -1757,9 +1886,13 @@
 				A651AD1CD5EE2B14B264D1715C75092C /* WMGBaseCellData.h in Headers */,
 				37E14EA7F3C243E40441D3005C036DF6 /* WMGBaseEngine.h in Headers */,
 				66C7EE714256D2C2DD47722F1F15D2AD /* WMGBaseViewModel.h in Headers */,
+				ED2809C529A7884D006C7AB0 /* CMDSlideTabbarProtocol.h in Headers */,
+				ED2809C129A7884D006C7AB0 /* CMDSlideView.h in Headers */,
+				ED2809CD29A7884D006C7AB0 /* CMDCacheProtocol.h in Headers */,
 				1E4400984178D81C7D7C4E3FB59B1D2D /* WMGBusinessModel.h in Headers */,
 				3DFFD4CC53A2DC7661DD6DE8B9ED385F /* WMGCanvasControl.h in Headers */,
 				A2966875D90C855950EAD0BEE9EF488A /* WMGCanvasView.h in Headers */,
+				ED2809B829A7884D006C7AB0 /* LanYouDiscoverCommon.h in Headers */,
 				3C7AE2873814723B9EE02FF06A4EE42B /* WMGClientData.h in Headers */,
 				CD897C943A53DA3243194575AF879E15 /* WMGContextAssisant.h in Headers */,
 				5E553DBDF50E0265815DAE53546B641C /* WMGFontMetrics.h in Headers */,
@@ -1778,8 +1911,10 @@
 				45F25FEBD69F4DD5A7269B8B17EA64FD /* WMGTextLayout.h in Headers */,
 				5AA698406E5B4F77A08DD4E01EB260AB /* WMGTextLayout+Coordinate.h in Headers */,
 				EB7916B522964A153478973EE367667E /* WMGTextLayoutFrame.h in Headers */,
+				ED2809C629A7884D006C7AB0 /* CMDFixedTabbarView.h in Headers */,
 				D426DB00B7886B518C9D761932A1C3BE /* WMGTextLayoutLine.h in Headers */,
 				30233C7342F34C8D490109BEB085E572 /* WMGTextLayoutRun.h in Headers */,
+				ED2809C029A7884D006C7AB0 /* CMDUtility.h in Headers */,
 				542A495420415C4C0BDE82C7822D7BDD /* WMGTextParagraphStyle.h in Headers */,
 				0FFBA6459B0920F32FB5D65B4D57A7E7 /* WMGVisionObject.h in Headers */,
 				B8D1A3B46006B43197E1D5293E9184FB /* WMMutableAttributedItem.h in Headers */,
@@ -2240,6 +2375,7 @@
 				38760A54EC9FD38C45E080EE4AD11802 /* LYProgressHUD.m in Sources */,
 				9B8DA2B283D08B43C9ECC38121EC7677 /* LYProgressHUD+CustomLoading.m in Sources */,
 				6CA799786A218E2A6092F0091F64040D /* MBProgressHUD+Touch.m in Sources */,
+				ED2809C229A7884D006C7AB0 /* CMDScrollTabbarView.m in Sources */,
 				3F309EF71521724B41C3C7B71590E43C /* NSAttributedString+GCalculateAndDraw.m in Sources */,
 				0D6FA5C397B901D3E2144392D2C9676A /* NSMutableAttributedString+GTextProperty.m in Sources */,
 				73260E4BD58F7E01946C1371F36205F2 /* NSObject+Graver.m in Sources */,
@@ -2250,14 +2386,19 @@
 				208CC2BD70E3D5C70A918062BF9B4612 /* UIImage+Graver.m in Sources */,
 				71768393178D758AE5C73D085F5F1FAD /* UIImage+HUD.m in Sources */,
 				BE019233457E5AC65FC8ADAE6171A419 /* UIView+LYEmptyView.m in Sources */,
+				ED2809CC29A7884D006C7AB0 /* CMDLRUCache.m in Sources */,
+				ED2809BE29A7884D006C7AB0 /* CMDSlideTabbarItem.m in Sources */,
 				F35B066B69D65A2B0AA3FE1459F110A0 /* UIViewController+CMStateViewController.m in Sources */,
+				ED2809BC29A7884D006C7AB0 /* CMDSlideTabbarItemArgs.m in Sources */,
 				C18BE7F8F06081B17545315DA7607CED /* WMGAsyncDrawLayer.m in Sources */,
 				A627BE5D1C5BD2627F727E66C50C9452 /* WMGAsyncDrawView.m in Sources */,
 				075BE826B40E200C910E26A9CE84678F /* WMGBaseCell.m in Sources */,
 				0A6AF8764E64B6319D80B5A1B723654F /* WMGBaseCellData.m in Sources */,
+				ED2809C929A7884D006C7AB0 /* CMDTabedSlideView.m in Sources */,
 				E0C67B06A5520F1F2CD1656B6A1764FD /* WMGBaseEngine.m in Sources */,
 				F9918473C7F14C3A674956897D3BCA83 /* WMGBaseViewModel.m in Sources */,
 				0B79EE19036B925E6FE58BFF2B0750A5 /* WMGBusinessModel.m in Sources */,
+				ED2809C829A7884D006C7AB0 /* CMDUtility.m in Sources */,
 				5468F93FB13F1F860669DFBE156A98CC /* WMGCanvasControl.m in Sources */,
 				DF6B4F4FAF0D52E3DFCF68DF3C0CE1EC /* WMGCanvasView.m in Sources */,
 				0512562B02338E6CEF449740D0FF275E /* WMGContextAssisant.m in Sources */,
@@ -2273,11 +2414,15 @@
 				29E1D738427B375A48FE936EEBFBA83A /* WMGTextLayout.m in Sources */,
 				DBC9ABFC0F148718A2C38126A3CBD2E7 /* WMGTextLayout+Coordinate.m in Sources */,
 				6C1772BCEAA701A7F7FA7328D0520364 /* WMGTextLayoutFrame.m in Sources */,
+				ED2809C329A7884D006C7AB0 /* CMDFixedTabbarView.m in Sources */,
 				2661EB5F677860425E0A39A9F93DE9A2 /* WMGTextLayoutLine.m in Sources */,
+				ED2809C729A7884D006C7AB0 /* CMDCustomSlideView.m in Sources */,
 				73E7E490407C24CE29FE2AF4A6566E05 /* WMGTextLayoutRun.m in Sources */,
 				5110EFFA84346308BA81CB7C61ECC44F /* WMGTextParagraphStyle.m in Sources */,
 				26EBA1C4BE1D275221822438103F8ABD /* WMGVisionObject.m in Sources */,
 				241C8D6C809A7F7C9E64D67DA511D483 /* WMMutableAttributedItem.m in Sources */,
+				ED2809CA29A7884D006C7AB0 /* CMDSlideView.m in Sources */,
+				ED2809BD29A7884D006C7AB0 /* CMDSlideTabbarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
