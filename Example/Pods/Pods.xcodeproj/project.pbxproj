@@ -36,6 +36,81 @@
 		ED2808B329A78205006C7AB0 /* LYEmptyViewLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808A829A78205006C7AB0 /* LYEmptyViewLabel.m */; };
 		ED2808B429A78205006C7AB0 /* LYEmptyViewRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808A929A78205006C7AB0 /* LYEmptyViewRequest.h */; };
 		ED2808B529A78205006C7AB0 /* LYEmptyViewRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808AA29A78205006C7AB0 /* LYEmptyViewRequest.m */; };
+		ED28091329A78284006C7AB0 /* UIFont+Graver.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808B829A78284006C7AB0 /* UIFont+Graver.h */; };
+		ED28091429A78284006C7AB0 /* UIBezierPath+Graver.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808B929A78284006C7AB0 /* UIBezierPath+Graver.h */; };
+		ED28091529A78284006C7AB0 /* NSObject+Graver.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808BA29A78284006C7AB0 /* NSObject+Graver.h */; };
+		ED28091629A78284006C7AB0 /* UIDevice+Graver.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808BB29A78284006C7AB0 /* UIDevice+Graver.h */; };
+		ED28091729A78284006C7AB0 /* UIFont+Graver.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808BC29A78284006C7AB0 /* UIFont+Graver.m */; };
+		ED28091829A78284006C7AB0 /* UIDevice+Graver.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808BD29A78284006C7AB0 /* UIDevice+Graver.m */; };
+		ED28091929A78284006C7AB0 /* NSObject+Graver.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808BE29A78284006C7AB0 /* NSObject+Graver.m */; };
+		ED28091A29A78284006C7AB0 /* UIBezierPath+Graver.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808BF29A78284006C7AB0 /* UIBezierPath+Graver.m */; };
+		ED28091B29A78284006C7AB0 /* WMGraverMacroDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808C029A78284006C7AB0 /* WMGraverMacroDefine.h */; };
+		ED28091C29A78284006C7AB0 /* WMGTextDrawer+Coordinate.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808C329A78284006C7AB0 /* WMGTextDrawer+Coordinate.h */; };
+		ED28091D29A78284006C7AB0 /* WMGTextDrawer+Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808C429A78284006C7AB0 /* WMGTextDrawer+Debug.m */; };
+		ED28091E29A78284006C7AB0 /* WMGTextDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808C529A78284006C7AB0 /* WMGTextDrawer.m */; };
+		ED28091F29A78284006C7AB0 /* WMGTextDrawer+Coordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808C629A78284006C7AB0 /* WMGTextDrawer+Coordinate.m */; };
+		ED28092029A78284006C7AB0 /* WMGTextDrawer+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808C729A78284006C7AB0 /* WMGTextDrawer+Private.h */; };
+		ED28092129A78284006C7AB0 /* WMGTextDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808C829A78284006C7AB0 /* WMGTextDrawer.h */; };
+		ED28092229A78284006C7AB0 /* WMGTextDrawer+Debug.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808C929A78284006C7AB0 /* WMGTextDrawer+Debug.h */; };
+		ED28092329A78284006C7AB0 /* WMGTextDrawer+Event.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808CA29A78284006C7AB0 /* WMGTextDrawer+Event.h */; };
+		ED28092429A78284006C7AB0 /* WMGTextLayout+Coordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808CC29A78284006C7AB0 /* WMGTextLayout+Coordinate.m */; };
+		ED28092529A78284006C7AB0 /* WMGTextLayoutRun.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808CD29A78284006C7AB0 /* WMGTextLayoutRun.m */; };
+		ED28092629A78284006C7AB0 /* WMGTextLayoutFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808CE29A78284006C7AB0 /* WMGTextLayoutFrame.h */; };
+		ED28092729A78284006C7AB0 /* WMGTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808CF29A78284006C7AB0 /* WMGTextLayout.m */; };
+		ED28092829A78284006C7AB0 /* WMGTextLayoutLine.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808D029A78284006C7AB0 /* WMGTextLayoutLine.h */; };
+		ED28092929A78284006C7AB0 /* WMGTextLayout+Coordinate.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808D129A78284006C7AB0 /* WMGTextLayout+Coordinate.h */; };
+		ED28092A29A78284006C7AB0 /* WMGTextLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808D229A78284006C7AB0 /* WMGTextLayout.h */; };
+		ED28092B29A78284006C7AB0 /* WMGTextLayoutFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808D329A78284006C7AB0 /* WMGTextLayoutFrame.m */; };
+		ED28092C29A78284006C7AB0 /* WMGTextLayoutRun.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808D429A78284006C7AB0 /* WMGTextLayoutRun.h */; };
+		ED28092D29A78284006C7AB0 /* WMGTextLayoutLine.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808D529A78284006C7AB0 /* WMGTextLayoutLine.m */; };
+		ED28092E29A78284006C7AB0 /* WMGFontMetrics.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808D729A78284006C7AB0 /* WMGFontMetrics.m */; };
+		ED28092F29A78284006C7AB0 /* WMGImage.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808D829A78284006C7AB0 /* WMGImage.h */; };
+		ED28093029A78284006C7AB0 /* WMGTextAttachment+Event.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808D929A78284006C7AB0 /* WMGTextAttachment+Event.h */; };
+		ED28093129A78284006C7AB0 /* WMGTextAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808DA29A78284006C7AB0 /* WMGTextAttachment.h */; };
+		ED28093229A78284006C7AB0 /* WMGContextAssisant.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808DB29A78284006C7AB0 /* WMGContextAssisant.h */; };
+		ED28093329A78284006C7AB0 /* WMGAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808DC29A78284006C7AB0 /* WMGAttachment.h */; };
+		ED28093429A78284006C7AB0 /* WMGFontMetrics.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808DD29A78284006C7AB0 /* WMGFontMetrics.h */; };
+		ED28093529A78284006C7AB0 /* WMGContextAssisant.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808DE29A78284006C7AB0 /* WMGContextAssisant.m */; };
+		ED28093629A78284006C7AB0 /* WMGTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808DF29A78284006C7AB0 /* WMGTextAttachment.m */; };
+		ED28093729A78284006C7AB0 /* WMGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808E029A78284006C7AB0 /* WMGImage.m */; };
+		ED28093829A78284006C7AB0 /* UIImage+Graver.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808E229A78284006C7AB0 /* UIImage+Graver.m */; };
+		ED28093929A78284006C7AB0 /* NSAttributedString+GCalculateAndDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808E329A78284006C7AB0 /* NSAttributedString+GCalculateAndDraw.m */; };
+		ED28093A29A78284006C7AB0 /* NSMutableAttributedString+GTextProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808E429A78284006C7AB0 /* NSMutableAttributedString+GTextProperty.m */; };
+		ED28093B29A78284006C7AB0 /* WMMutableAttributedItem.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808E529A78284006C7AB0 /* WMMutableAttributedItem.h */; };
+		ED28093C29A78284006C7AB0 /* WMGTextParagraphStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808E629A78284006C7AB0 /* WMGTextParagraphStyle.m */; };
+		ED28093D29A78284006C7AB0 /* NSAttributedString+GCalculateAndDraw.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808E729A78284006C7AB0 /* NSAttributedString+GCalculateAndDraw.h */; };
+		ED28093E29A78284006C7AB0 /* UIImage+Graver.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808E829A78284006C7AB0 /* UIImage+Graver.h */; };
+		ED28093F29A78284006C7AB0 /* NSMutableAttributedString+GTextProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808E929A78284006C7AB0 /* NSMutableAttributedString+GTextProperty.h */; };
+		ED28094029A78284006C7AB0 /* WMGTextParagraphStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808EA29A78284006C7AB0 /* WMGTextParagraphStyle.h */; };
+		ED28094129A78284006C7AB0 /* WMMutableAttributedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808EB29A78284006C7AB0 /* WMMutableAttributedItem.m */; };
+		ED28094229A78284006C7AB0 /* WMGBaseViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808EE29A78284006C7AB0 /* WMGBaseViewModel.h */; };
+		ED28094329A78284006C7AB0 /* WMGBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808EF29A78284006C7AB0 /* WMGBaseViewModel.m */; };
+		ED28094429A78284006C7AB0 /* WMGResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808F129A78284006C7AB0 /* WMGResultSet.m */; };
+		ED28094529A78284006C7AB0 /* WMGBusinessModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808F229A78284006C7AB0 /* WMGBusinessModel.m */; };
+		ED28094629A78284006C7AB0 /* WMGClientData.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808F329A78284006C7AB0 /* WMGClientData.h */; };
+		ED28094729A78284006C7AB0 /* WMGResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808F429A78284006C7AB0 /* WMGResultSet.h */; };
+		ED28094829A78284006C7AB0 /* WMGBusinessModel.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808F529A78284006C7AB0 /* WMGBusinessModel.h */; };
+		ED28094929A78284006C7AB0 /* WMGBaseEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808F729A78284006C7AB0 /* WMGBaseEngine.h */; };
+		ED28094A29A78284006C7AB0 /* WMGBaseEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808F829A78284006C7AB0 /* WMGBaseEngine.m */; };
+		ED28094B29A78284006C7AB0 /* WMGBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808FB29A78284006C7AB0 /* WMGBaseCell.m */; };
+		ED28094C29A78284006C7AB0 /* WMGBaseCell.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808FC29A78284006C7AB0 /* WMGBaseCell.h */; };
+		ED28094D29A78284006C7AB0 /* WMGVisionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808FE29A78284006C7AB0 /* WMGVisionObject.m */; };
+		ED28094E29A78284006C7AB0 /* WMGBaseCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808FF29A78284006C7AB0 /* WMGBaseCellData.m */; };
+		ED28094F29A78284006C7AB0 /* WMGBaseCellData.h in Headers */ = {isa = PBXBuildFile; fileRef = ED28090029A78284006C7AB0 /* WMGBaseCellData.h */; };
+		ED28095029A78284006C7AB0 /* WMGVisionObject.h in Headers */ = {isa = PBXBuildFile; fileRef = ED28090129A78284006C7AB0 /* WMGVisionObject.h */; };
+		ED28095129A78284006C7AB0 /* WMGMixedView.h in Headers */ = {isa = PBXBuildFile; fileRef = ED28090429A78284006C7AB0 /* WMGMixedView.h */; };
+		ED28095229A78284006C7AB0 /* WMGCanvasControl.h in Headers */ = {isa = PBXBuildFile; fileRef = ED28090529A78284006C7AB0 /* WMGCanvasControl.h */; };
+		ED28095329A78284006C7AB0 /* WMGCanvasView.h in Headers */ = {isa = PBXBuildFile; fileRef = ED28090629A78284006C7AB0 /* WMGCanvasView.h */; };
+		ED28095429A78284006C7AB0 /* WMGMixedView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED28090729A78284006C7AB0 /* WMGMixedView.m */; };
+		ED28095529A78284006C7AB0 /* WMGCanvasControl.m in Sources */ = {isa = PBXBuildFile; fileRef = ED28090829A78284006C7AB0 /* WMGCanvasControl.m */; };
+		ED28095629A78284006C7AB0 /* WMGCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED28090929A78284006C7AB0 /* WMGCanvasView.m */; };
+		ED28095729A78284006C7AB0 /* WMGActiveRange.h in Headers */ = {isa = PBXBuildFile; fileRef = ED28090B29A78284006C7AB0 /* WMGActiveRange.h */; };
+		ED28095829A78284006C7AB0 /* WMGTextActiveRange.h in Headers */ = {isa = PBXBuildFile; fileRef = ED28090C29A78284006C7AB0 /* WMGTextActiveRange.h */; };
+		ED28095929A78284006C7AB0 /* WMGTextActiveRange.m in Sources */ = {isa = PBXBuildFile; fileRef = ED28090D29A78284006C7AB0 /* WMGTextActiveRange.m */; };
+		ED28095A29A78284006C7AB0 /* WMGAsyncDrawLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = ED28090F29A78284006C7AB0 /* WMGAsyncDrawLayer.h */; };
+		ED28095B29A78284006C7AB0 /* WMGAsyncDrawView.h in Headers */ = {isa = PBXBuildFile; fileRef = ED28091029A78284006C7AB0 /* WMGAsyncDrawView.h */; };
+		ED28095C29A78284006C7AB0 /* WMGAsyncDrawLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = ED28091129A78284006C7AB0 /* WMGAsyncDrawLayer.m */; };
+		ED28095D29A78284006C7AB0 /* WMGAsyncDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED28091229A78284006C7AB0 /* WMGAsyncDrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +179,81 @@
 		ED2808A829A78205006C7AB0 /* LYEmptyViewLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYEmptyViewLabel.m; sourceTree = "<group>"; };
 		ED2808A929A78205006C7AB0 /* LYEmptyViewRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEmptyViewRequest.h; sourceTree = "<group>"; };
 		ED2808AA29A78205006C7AB0 /* LYEmptyViewRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYEmptyViewRequest.m; sourceTree = "<group>"; };
+		ED2808B829A78284006C7AB0 /* UIFont+Graver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Graver.h"; sourceTree = "<group>"; };
+		ED2808B929A78284006C7AB0 /* UIBezierPath+Graver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Graver.h"; sourceTree = "<group>"; };
+		ED2808BA29A78284006C7AB0 /* NSObject+Graver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Graver.h"; sourceTree = "<group>"; };
+		ED2808BB29A78284006C7AB0 /* UIDevice+Graver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Graver.h"; sourceTree = "<group>"; };
+		ED2808BC29A78284006C7AB0 /* UIFont+Graver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Graver.m"; sourceTree = "<group>"; };
+		ED2808BD29A78284006C7AB0 /* UIDevice+Graver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Graver.m"; sourceTree = "<group>"; };
+		ED2808BE29A78284006C7AB0 /* NSObject+Graver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Graver.m"; sourceTree = "<group>"; };
+		ED2808BF29A78284006C7AB0 /* UIBezierPath+Graver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+Graver.m"; sourceTree = "<group>"; };
+		ED2808C029A78284006C7AB0 /* WMGraverMacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGraverMacroDefine.h; sourceTree = "<group>"; };
+		ED2808C329A78284006C7AB0 /* WMGTextDrawer+Coordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WMGTextDrawer+Coordinate.h"; sourceTree = "<group>"; };
+		ED2808C429A78284006C7AB0 /* WMGTextDrawer+Debug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WMGTextDrawer+Debug.m"; sourceTree = "<group>"; };
+		ED2808C529A78284006C7AB0 /* WMGTextDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGTextDrawer.m; sourceTree = "<group>"; };
+		ED2808C629A78284006C7AB0 /* WMGTextDrawer+Coordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WMGTextDrawer+Coordinate.m"; sourceTree = "<group>"; };
+		ED2808C729A78284006C7AB0 /* WMGTextDrawer+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WMGTextDrawer+Private.h"; sourceTree = "<group>"; };
+		ED2808C829A78284006C7AB0 /* WMGTextDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGTextDrawer.h; sourceTree = "<group>"; };
+		ED2808C929A78284006C7AB0 /* WMGTextDrawer+Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WMGTextDrawer+Debug.h"; sourceTree = "<group>"; };
+		ED2808CA29A78284006C7AB0 /* WMGTextDrawer+Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WMGTextDrawer+Event.h"; sourceTree = "<group>"; };
+		ED2808CC29A78284006C7AB0 /* WMGTextLayout+Coordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WMGTextLayout+Coordinate.m"; sourceTree = "<group>"; };
+		ED2808CD29A78284006C7AB0 /* WMGTextLayoutRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGTextLayoutRun.m; sourceTree = "<group>"; };
+		ED2808CE29A78284006C7AB0 /* WMGTextLayoutFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGTextLayoutFrame.h; sourceTree = "<group>"; };
+		ED2808CF29A78284006C7AB0 /* WMGTextLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGTextLayout.m; sourceTree = "<group>"; };
+		ED2808D029A78284006C7AB0 /* WMGTextLayoutLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGTextLayoutLine.h; sourceTree = "<group>"; };
+		ED2808D129A78284006C7AB0 /* WMGTextLayout+Coordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WMGTextLayout+Coordinate.h"; sourceTree = "<group>"; };
+		ED2808D229A78284006C7AB0 /* WMGTextLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGTextLayout.h; sourceTree = "<group>"; };
+		ED2808D329A78284006C7AB0 /* WMGTextLayoutFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGTextLayoutFrame.m; sourceTree = "<group>"; };
+		ED2808D429A78284006C7AB0 /* WMGTextLayoutRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGTextLayoutRun.h; sourceTree = "<group>"; };
+		ED2808D529A78284006C7AB0 /* WMGTextLayoutLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGTextLayoutLine.m; sourceTree = "<group>"; };
+		ED2808D729A78284006C7AB0 /* WMGFontMetrics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGFontMetrics.m; sourceTree = "<group>"; };
+		ED2808D829A78284006C7AB0 /* WMGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGImage.h; sourceTree = "<group>"; };
+		ED2808D929A78284006C7AB0 /* WMGTextAttachment+Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WMGTextAttachment+Event.h"; sourceTree = "<group>"; };
+		ED2808DA29A78284006C7AB0 /* WMGTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGTextAttachment.h; sourceTree = "<group>"; };
+		ED2808DB29A78284006C7AB0 /* WMGContextAssisant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGContextAssisant.h; sourceTree = "<group>"; };
+		ED2808DC29A78284006C7AB0 /* WMGAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGAttachment.h; sourceTree = "<group>"; };
+		ED2808DD29A78284006C7AB0 /* WMGFontMetrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGFontMetrics.h; sourceTree = "<group>"; };
+		ED2808DE29A78284006C7AB0 /* WMGContextAssisant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGContextAssisant.m; sourceTree = "<group>"; };
+		ED2808DF29A78284006C7AB0 /* WMGTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGTextAttachment.m; sourceTree = "<group>"; };
+		ED2808E029A78284006C7AB0 /* WMGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGImage.m; sourceTree = "<group>"; };
+		ED2808E229A78284006C7AB0 /* UIImage+Graver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Graver.m"; sourceTree = "<group>"; };
+		ED2808E329A78284006C7AB0 /* NSAttributedString+GCalculateAndDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+GCalculateAndDraw.m"; sourceTree = "<group>"; };
+		ED2808E429A78284006C7AB0 /* NSMutableAttributedString+GTextProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+GTextProperty.m"; sourceTree = "<group>"; };
+		ED2808E529A78284006C7AB0 /* WMMutableAttributedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMutableAttributedItem.h; sourceTree = "<group>"; };
+		ED2808E629A78284006C7AB0 /* WMGTextParagraphStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGTextParagraphStyle.m; sourceTree = "<group>"; };
+		ED2808E729A78284006C7AB0 /* NSAttributedString+GCalculateAndDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+GCalculateAndDraw.h"; sourceTree = "<group>"; };
+		ED2808E829A78284006C7AB0 /* UIImage+Graver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Graver.h"; sourceTree = "<group>"; };
+		ED2808E929A78284006C7AB0 /* NSMutableAttributedString+GTextProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+GTextProperty.h"; sourceTree = "<group>"; };
+		ED2808EA29A78284006C7AB0 /* WMGTextParagraphStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGTextParagraphStyle.h; sourceTree = "<group>"; };
+		ED2808EB29A78284006C7AB0 /* WMMutableAttributedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMutableAttributedItem.m; sourceTree = "<group>"; };
+		ED2808EE29A78284006C7AB0 /* WMGBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGBaseViewModel.h; sourceTree = "<group>"; };
+		ED2808EF29A78284006C7AB0 /* WMGBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGBaseViewModel.m; sourceTree = "<group>"; };
+		ED2808F129A78284006C7AB0 /* WMGResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGResultSet.m; sourceTree = "<group>"; };
+		ED2808F229A78284006C7AB0 /* WMGBusinessModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGBusinessModel.m; sourceTree = "<group>"; };
+		ED2808F329A78284006C7AB0 /* WMGClientData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGClientData.h; sourceTree = "<group>"; };
+		ED2808F429A78284006C7AB0 /* WMGResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGResultSet.h; sourceTree = "<group>"; };
+		ED2808F529A78284006C7AB0 /* WMGBusinessModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGBusinessModel.h; sourceTree = "<group>"; };
+		ED2808F729A78284006C7AB0 /* WMGBaseEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGBaseEngine.h; sourceTree = "<group>"; };
+		ED2808F829A78284006C7AB0 /* WMGBaseEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGBaseEngine.m; sourceTree = "<group>"; };
+		ED2808FB29A78284006C7AB0 /* WMGBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGBaseCell.m; sourceTree = "<group>"; };
+		ED2808FC29A78284006C7AB0 /* WMGBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGBaseCell.h; sourceTree = "<group>"; };
+		ED2808FE29A78284006C7AB0 /* WMGVisionObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGVisionObject.m; sourceTree = "<group>"; };
+		ED2808FF29A78284006C7AB0 /* WMGBaseCellData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGBaseCellData.m; sourceTree = "<group>"; };
+		ED28090029A78284006C7AB0 /* WMGBaseCellData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGBaseCellData.h; sourceTree = "<group>"; };
+		ED28090129A78284006C7AB0 /* WMGVisionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGVisionObject.h; sourceTree = "<group>"; };
+		ED28090429A78284006C7AB0 /* WMGMixedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGMixedView.h; sourceTree = "<group>"; };
+		ED28090529A78284006C7AB0 /* WMGCanvasControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGCanvasControl.h; sourceTree = "<group>"; };
+		ED28090629A78284006C7AB0 /* WMGCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGCanvasView.h; sourceTree = "<group>"; };
+		ED28090729A78284006C7AB0 /* WMGMixedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGMixedView.m; sourceTree = "<group>"; };
+		ED28090829A78284006C7AB0 /* WMGCanvasControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGCanvasControl.m; sourceTree = "<group>"; };
+		ED28090929A78284006C7AB0 /* WMGCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGCanvasView.m; sourceTree = "<group>"; };
+		ED28090B29A78284006C7AB0 /* WMGActiveRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGActiveRange.h; sourceTree = "<group>"; };
+		ED28090C29A78284006C7AB0 /* WMGTextActiveRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGTextActiveRange.h; sourceTree = "<group>"; };
+		ED28090D29A78284006C7AB0 /* WMGTextActiveRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGTextActiveRange.m; sourceTree = "<group>"; };
+		ED28090F29A78284006C7AB0 /* WMGAsyncDrawLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGAsyncDrawLayer.h; sourceTree = "<group>"; };
+		ED28091029A78284006C7AB0 /* WMGAsyncDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGAsyncDrawView.h; sourceTree = "<group>"; };
+		ED28091129A78284006C7AB0 /* WMGAsyncDrawLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGAsyncDrawLayer.m; sourceTree = "<group>"; };
+		ED28091229A78284006C7AB0 /* WMGAsyncDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGAsyncDrawView.m; sourceTree = "<group>"; };
 		F269EF66D1A13C684A5A3EE537C2D18C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F2D71D827D7B21F8D0D971B0FF926DF7 /* kyleLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "kyleLib-umbrella.h"; sourceTree = "<group>"; };
 		F764E3365CFB76725DF0D912828BD9FE /* Pods-kyleLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-kyleLib_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -141,6 +291,7 @@
 		2C1A558103AEC5BFF1F003A3099CDD67 /* kyleLib */ = {
 			isa = PBXGroup;
 			children = (
+				ED2808B629A78284006C7AB0 /* LanYouGraver */,
 				ED28088129A781D4006C7AB0 /* LanYouEmptyView */,
 				ED28083F29A77827006C7AB0 /* LanYouAlert */,
 				ED28083A29A7780E006C7AB0 /* CustomSegmented */,
@@ -317,6 +468,225 @@
 			path = LYEmptyDefaultView;
 			sourceTree = "<group>";
 		};
+		ED2808B629A78284006C7AB0 /* LanYouGraver */ = {
+			isa = PBXGroup;
+			children = (
+				ED2808B729A78284006C7AB0 /* Utils */,
+				ED2808C029A78284006C7AB0 /* WMGraverMacroDefine.h */,
+				ED2808C129A78284006C7AB0 /* CoreText */,
+				ED2808E129A78284006C7AB0 /* AttributedItem */,
+				ED2808EC29A78284006C7AB0 /* PreLayout */,
+				ED28090229A78284006C7AB0 /* AsyncDraw */,
+			);
+			name = LanYouGraver;
+			path = kyleLib/Classes/LanYouGraver;
+			sourceTree = "<group>";
+		};
+		ED2808B729A78284006C7AB0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				ED2808B829A78284006C7AB0 /* UIFont+Graver.h */,
+				ED2808B929A78284006C7AB0 /* UIBezierPath+Graver.h */,
+				ED2808BA29A78284006C7AB0 /* NSObject+Graver.h */,
+				ED2808BB29A78284006C7AB0 /* UIDevice+Graver.h */,
+				ED2808BC29A78284006C7AB0 /* UIFont+Graver.m */,
+				ED2808BD29A78284006C7AB0 /* UIDevice+Graver.m */,
+				ED2808BE29A78284006C7AB0 /* NSObject+Graver.m */,
+				ED2808BF29A78284006C7AB0 /* UIBezierPath+Graver.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		ED2808C129A78284006C7AB0 /* CoreText */ = {
+			isa = PBXGroup;
+			children = (
+				ED2808C229A78284006C7AB0 /* Drawer */,
+				ED2808CB29A78284006C7AB0 /* Layout */,
+				ED2808D629A78284006C7AB0 /* Asscessory */,
+			);
+			path = CoreText;
+			sourceTree = "<group>";
+		};
+		ED2808C229A78284006C7AB0 /* Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				ED2808C329A78284006C7AB0 /* WMGTextDrawer+Coordinate.h */,
+				ED2808C429A78284006C7AB0 /* WMGTextDrawer+Debug.m */,
+				ED2808C529A78284006C7AB0 /* WMGTextDrawer.m */,
+				ED2808C629A78284006C7AB0 /* WMGTextDrawer+Coordinate.m */,
+				ED2808C729A78284006C7AB0 /* WMGTextDrawer+Private.h */,
+				ED2808C829A78284006C7AB0 /* WMGTextDrawer.h */,
+				ED2808C929A78284006C7AB0 /* WMGTextDrawer+Debug.h */,
+				ED2808CA29A78284006C7AB0 /* WMGTextDrawer+Event.h */,
+			);
+			path = Drawer;
+			sourceTree = "<group>";
+		};
+		ED2808CB29A78284006C7AB0 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				ED2808CC29A78284006C7AB0 /* WMGTextLayout+Coordinate.m */,
+				ED2808CD29A78284006C7AB0 /* WMGTextLayoutRun.m */,
+				ED2808CE29A78284006C7AB0 /* WMGTextLayoutFrame.h */,
+				ED2808CF29A78284006C7AB0 /* WMGTextLayout.m */,
+				ED2808D029A78284006C7AB0 /* WMGTextLayoutLine.h */,
+				ED2808D129A78284006C7AB0 /* WMGTextLayout+Coordinate.h */,
+				ED2808D229A78284006C7AB0 /* WMGTextLayout.h */,
+				ED2808D329A78284006C7AB0 /* WMGTextLayoutFrame.m */,
+				ED2808D429A78284006C7AB0 /* WMGTextLayoutRun.h */,
+				ED2808D529A78284006C7AB0 /* WMGTextLayoutLine.m */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		ED2808D629A78284006C7AB0 /* Asscessory */ = {
+			isa = PBXGroup;
+			children = (
+				ED2808D729A78284006C7AB0 /* WMGFontMetrics.m */,
+				ED2808D829A78284006C7AB0 /* WMGImage.h */,
+				ED2808D929A78284006C7AB0 /* WMGTextAttachment+Event.h */,
+				ED2808DA29A78284006C7AB0 /* WMGTextAttachment.h */,
+				ED2808DB29A78284006C7AB0 /* WMGContextAssisant.h */,
+				ED2808DC29A78284006C7AB0 /* WMGAttachment.h */,
+				ED2808DD29A78284006C7AB0 /* WMGFontMetrics.h */,
+				ED2808DE29A78284006C7AB0 /* WMGContextAssisant.m */,
+				ED2808DF29A78284006C7AB0 /* WMGTextAttachment.m */,
+				ED2808E029A78284006C7AB0 /* WMGImage.m */,
+			);
+			path = Asscessory;
+			sourceTree = "<group>";
+		};
+		ED2808E129A78284006C7AB0 /* AttributedItem */ = {
+			isa = PBXGroup;
+			children = (
+				ED2808E229A78284006C7AB0 /* UIImage+Graver.m */,
+				ED2808E329A78284006C7AB0 /* NSAttributedString+GCalculateAndDraw.m */,
+				ED2808E429A78284006C7AB0 /* NSMutableAttributedString+GTextProperty.m */,
+				ED2808E529A78284006C7AB0 /* WMMutableAttributedItem.h */,
+				ED2808E629A78284006C7AB0 /* WMGTextParagraphStyle.m */,
+				ED2808E729A78284006C7AB0 /* NSAttributedString+GCalculateAndDraw.h */,
+				ED2808E829A78284006C7AB0 /* UIImage+Graver.h */,
+				ED2808E929A78284006C7AB0 /* NSMutableAttributedString+GTextProperty.h */,
+				ED2808EA29A78284006C7AB0 /* WMGTextParagraphStyle.h */,
+				ED2808EB29A78284006C7AB0 /* WMMutableAttributedItem.m */,
+			);
+			path = AttributedItem;
+			sourceTree = "<group>";
+		};
+		ED2808EC29A78284006C7AB0 /* PreLayout */ = {
+			isa = PBXGroup;
+			children = (
+				ED2808ED29A78284006C7AB0 /* ViewModel */,
+				ED2808F029A78284006C7AB0 /* Model */,
+				ED2808F929A78284006C7AB0 /* View */,
+			);
+			path = PreLayout;
+			sourceTree = "<group>";
+		};
+		ED2808ED29A78284006C7AB0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ED2808EE29A78284006C7AB0 /* WMGBaseViewModel.h */,
+				ED2808EF29A78284006C7AB0 /* WMGBaseViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ED2808F029A78284006C7AB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED2808F129A78284006C7AB0 /* WMGResultSet.m */,
+				ED2808F229A78284006C7AB0 /* WMGBusinessModel.m */,
+				ED2808F329A78284006C7AB0 /* WMGClientData.h */,
+				ED2808F429A78284006C7AB0 /* WMGResultSet.h */,
+				ED2808F529A78284006C7AB0 /* WMGBusinessModel.h */,
+				ED2808F629A78284006C7AB0 /* Engine */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED2808F629A78284006C7AB0 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				ED2808F729A78284006C7AB0 /* WMGBaseEngine.h */,
+				ED2808F829A78284006C7AB0 /* WMGBaseEngine.m */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		ED2808F929A78284006C7AB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED2808FA29A78284006C7AB0 /* UI */,
+				ED2808FD29A78284006C7AB0 /* UIData */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED2808FA29A78284006C7AB0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				ED2808FB29A78284006C7AB0 /* WMGBaseCell.m */,
+				ED2808FC29A78284006C7AB0 /* WMGBaseCell.h */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		ED2808FD29A78284006C7AB0 /* UIData */ = {
+			isa = PBXGroup;
+			children = (
+				ED2808FE29A78284006C7AB0 /* WMGVisionObject.m */,
+				ED2808FF29A78284006C7AB0 /* WMGBaseCellData.m */,
+				ED28090029A78284006C7AB0 /* WMGBaseCellData.h */,
+				ED28090129A78284006C7AB0 /* WMGVisionObject.h */,
+			);
+			path = UIData;
+			sourceTree = "<group>";
+		};
+		ED28090229A78284006C7AB0 /* AsyncDraw */ = {
+			isa = PBXGroup;
+			children = (
+				ED28090329A78284006C7AB0 /* Canvas */,
+				ED28090A29A78284006C7AB0 /* Accessory */,
+				ED28090E29A78284006C7AB0 /* Base */,
+			);
+			path = AsyncDraw;
+			sourceTree = "<group>";
+		};
+		ED28090329A78284006C7AB0 /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				ED28090429A78284006C7AB0 /* WMGMixedView.h */,
+				ED28090529A78284006C7AB0 /* WMGCanvasControl.h */,
+				ED28090629A78284006C7AB0 /* WMGCanvasView.h */,
+				ED28090729A78284006C7AB0 /* WMGMixedView.m */,
+				ED28090829A78284006C7AB0 /* WMGCanvasControl.m */,
+				ED28090929A78284006C7AB0 /* WMGCanvasView.m */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		ED28090A29A78284006C7AB0 /* Accessory */ = {
+			isa = PBXGroup;
+			children = (
+				ED28090B29A78284006C7AB0 /* WMGActiveRange.h */,
+				ED28090C29A78284006C7AB0 /* WMGTextActiveRange.h */,
+				ED28090D29A78284006C7AB0 /* WMGTextActiveRange.m */,
+			);
+			path = Accessory;
+			sourceTree = "<group>";
+		};
+		ED28090E29A78284006C7AB0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				ED28090F29A78284006C7AB0 /* WMGAsyncDrawLayer.h */,
+				ED28091029A78284006C7AB0 /* WMGAsyncDrawView.h */,
+				ED28091129A78284006C7AB0 /* WMGAsyncDrawLayer.m */,
+				ED28091229A78284006C7AB0 /* WMGAsyncDrawView.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		F3E16A53C87C7440EAEED52888019121 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -347,17 +717,58 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED28092129A78284006C7AB0 /* WMGTextDrawer.h in Headers */,
+				ED28093029A78284006C7AB0 /* WMGTextAttachment+Event.h in Headers */,
+				ED28095229A78284006C7AB0 /* WMGCanvasControl.h in Headers */,
+				ED28094229A78284006C7AB0 /* WMGBaseViewModel.h in Headers */,
+				ED28092029A78284006C7AB0 /* WMGTextDrawer+Private.h in Headers */,
+				ED28091329A78284006C7AB0 /* UIFont+Graver.h in Headers */,
 				ED2808B229A78205006C7AB0 /* LYEmptyDefaultView.h in Headers */,
+				ED28091429A78284006C7AB0 /* UIBezierPath+Graver.h in Headers */,
+				ED28094029A78284006C7AB0 /* WMGTextParagraphStyle.h in Headers */,
+				ED28095829A78284006C7AB0 /* WMGTextActiveRange.h in Headers */,
+				ED28092629A78284006C7AB0 /* WMGTextLayoutFrame.h in Headers */,
+				ED28091B29A78284006C7AB0 /* WMGraverMacroDefine.h in Headers */,
+				ED28091629A78284006C7AB0 /* UIDevice+Graver.h in Headers */,
+				ED28091C29A78284006C7AB0 /* WMGTextDrawer+Coordinate.h in Headers */,
 				ED2808AD29A78205006C7AB0 /* LYEmptyViewType.h in Headers */,
 				ED28083E29A7780E006C7AB0 /* CMCustomeSegmentControlView.h in Headers */,
+				ED28092829A78284006C7AB0 /* WMGTextLayoutLine.h in Headers */,
+				ED28094829A78284006C7AB0 /* WMGBusinessModel.h in Headers */,
+				ED28093129A78284006C7AB0 /* WMGTextAttachment.h in Headers */,
+				ED28092229A78284006C7AB0 /* WMGTextDrawer+Debug.h in Headers */,
 				ED2808B029A78205006C7AB0 /* LYEmptyViewLabel.h in Headers */,
+				ED28092A29A78284006C7AB0 /* WMGTextLayout.h in Headers */,
 				ED2808B429A78205006C7AB0 /* LYEmptyViewRequest.h in Headers */,
+				ED28094929A78284006C7AB0 /* WMGBaseEngine.h in Headers */,
+				ED28095329A78284006C7AB0 /* WMGCanvasView.h in Headers */,
+				ED28095729A78284006C7AB0 /* WMGActiveRange.h in Headers */,
+				ED28092F29A78284006C7AB0 /* WMGImage.h in Headers */,
 				ED2808AC29A78205006C7AB0 /* LYEmptyView.h in Headers */,
 				ED28084429A77827006C7AB0 /* LanYouAlertHelper.h in Headers */,
+				ED28095129A78284006C7AB0 /* WMGMixedView.h in Headers */,
+				ED28092929A78284006C7AB0 /* WMGTextLayout+Coordinate.h in Headers */,
+				ED28092C29A78284006C7AB0 /* WMGTextLayoutRun.h in Headers */,
 				ED28084329A77827006C7AB0 /* LanYouAlert.h in Headers */,
+				ED28094729A78284006C7AB0 /* WMGResultSet.h in Headers */,
+				ED28093B29A78284006C7AB0 /* WMMutableAttributedItem.h in Headers */,
+				ED28093F29A78284006C7AB0 /* NSMutableAttributedString+GTextProperty.h in Headers */,
+				ED28093D29A78284006C7AB0 /* NSAttributedString+GCalculateAndDraw.h in Headers */,
+				ED28093229A78284006C7AB0 /* WMGContextAssisant.h in Headers */,
+				ED28093E29A78284006C7AB0 /* UIImage+Graver.h in Headers */,
 				ED28084729A7787D006C7AB0 /* IGAlertProtocol.h in Headers */,
 				2C80C448FF5B34908075C9897AA16A20 /* kyleLib-umbrella.h in Headers */,
+				ED28092329A78284006C7AB0 /* WMGTextDrawer+Event.h in Headers */,
 				ED2808AB29A78205006C7AB0 /* UIView+LYEmptyView.h in Headers */,
+				ED28095029A78284006C7AB0 /* WMGVisionObject.h in Headers */,
+				ED28094C29A78284006C7AB0 /* WMGBaseCell.h in Headers */,
+				ED28094F29A78284006C7AB0 /* WMGBaseCellData.h in Headers */,
+				ED28093329A78284006C7AB0 /* WMGAttachment.h in Headers */,
+				ED28091529A78284006C7AB0 /* NSObject+Graver.h in Headers */,
+				ED28093429A78284006C7AB0 /* WMGFontMetrics.h in Headers */,
+				ED28095A29A78284006C7AB0 /* WMGAsyncDrawLayer.h in Headers */,
+				ED28095B29A78284006C7AB0 /* WMGAsyncDrawView.h in Headers */,
+				ED28094629A78284006C7AB0 /* WMGClientData.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,14 +900,48 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED2808B529A78205006C7AB0 /* LYEmptyViewRequest.m in Sources */,
+				ED28091829A78284006C7AB0 /* UIDevice+Graver.m in Sources */,
+				ED28092429A78284006C7AB0 /* WMGTextLayout+Coordinate.m in Sources */,
+				ED28091729A78284006C7AB0 /* UIFont+Graver.m in Sources */,
 				ED28084529A77827006C7AB0 /* LanYouAlert.m in Sources */,
 				053214D00AF1A9E3CB20DD748BB94DF5 /* kyleLib-dummy.m in Sources */,
+				ED28095429A78284006C7AB0 /* WMGMixedView.m in Sources */,
+				ED28094E29A78284006C7AB0 /* WMGBaseCellData.m in Sources */,
+				ED28092529A78284006C7AB0 /* WMGTextLayoutRun.m in Sources */,
 				ED2808AE29A78205006C7AB0 /* UIView+LYEmptyView.m in Sources */,
+				ED28093929A78284006C7AB0 /* NSAttributedString+GCalculateAndDraw.m in Sources */,
+				ED28094129A78284006C7AB0 /* WMMutableAttributedItem.m in Sources */,
+				ED28094A29A78284006C7AB0 /* WMGBaseEngine.m in Sources */,
+				ED28093829A78284006C7AB0 /* UIImage+Graver.m in Sources */,
+				ED28093A29A78284006C7AB0 /* NSMutableAttributedString+GTextProperty.m in Sources */,
+				ED28091A29A78284006C7AB0 /* UIBezierPath+Graver.m in Sources */,
+				ED28094D29A78284006C7AB0 /* WMGVisionObject.m in Sources */,
+				ED28095529A78284006C7AB0 /* WMGCanvasControl.m in Sources */,
 				ED2808B129A78205006C7AB0 /* LYEmptyDefaultView.m in Sources */,
 				ED2808B329A78205006C7AB0 /* LYEmptyViewLabel.m in Sources */,
+				ED28095629A78284006C7AB0 /* WMGCanvasView.m in Sources */,
+				ED28093729A78284006C7AB0 /* WMGImage.m in Sources */,
+				ED28092D29A78284006C7AB0 /* WMGTextLayoutLine.m in Sources */,
+				ED28092E29A78284006C7AB0 /* WMGFontMetrics.m in Sources */,
+				ED28094B29A78284006C7AB0 /* WMGBaseCell.m in Sources */,
+				ED28091E29A78284006C7AB0 /* WMGTextDrawer.m in Sources */,
 				E62347E678F59F93D4C23FEEBAB7030E /* ReplaceMe.m in Sources */,
 				ED28083D29A7780E006C7AB0 /* CMCustomeSegmentControlView.m in Sources */,
+				ED28094529A78284006C7AB0 /* WMGBusinessModel.m in Sources */,
+				ED28091D29A78284006C7AB0 /* WMGTextDrawer+Debug.m in Sources */,
+				ED28091F29A78284006C7AB0 /* WMGTextDrawer+Coordinate.m in Sources */,
+				ED28093529A78284006C7AB0 /* WMGContextAssisant.m in Sources */,
+				ED28092B29A78284006C7AB0 /* WMGTextLayoutFrame.m in Sources */,
+				ED28092729A78284006C7AB0 /* WMGTextLayout.m in Sources */,
+				ED28095C29A78284006C7AB0 /* WMGAsyncDrawLayer.m in Sources */,
+				ED28091929A78284006C7AB0 /* NSObject+Graver.m in Sources */,
+				ED28095D29A78284006C7AB0 /* WMGAsyncDrawView.m in Sources */,
+				ED28093C29A78284006C7AB0 /* WMGTextParagraphStyle.m in Sources */,
 				ED2808AF29A78205006C7AB0 /* LYEmptyView.m in Sources */,
+				ED28093629A78284006C7AB0 /* WMGTextAttachment.m in Sources */,
+				ED28094329A78284006C7AB0 /* WMGBaseViewModel.m in Sources */,
+				ED28094429A78284006C7AB0 /* WMGResultSet.m in Sources */,
+				ED28095929A78284006C7AB0 /* WMGTextActiveRange.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
