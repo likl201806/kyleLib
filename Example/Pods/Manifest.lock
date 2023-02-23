@@ -16,7 +16,11 @@ PODS:
     - AFNetworking/NSURLSession
   - kyleLib (0.1.0):
     - AFNetworking
+    - Masonry
+    - MBProgressHUD
     - SDWebImage
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
   - SDWebImage (5.15.0):
     - SDWebImage/Core (= 5.15.0)
   - SDWebImage/Core (5.15.0)
@@ -27,6 +31,8 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - Masonry
+    - MBProgressHUD
     - SDWebImage
 
 EXTERNAL SOURCES:
@@ -35,7 +41,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
-  kyleLib: 9dcc7957e88ffa43ff29a6b7ea90b9e229604c49
+  kyleLib: 0af96298a0e983ca66c168f4468c9ed914589c3a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   SDWebImage: 9bec4c5cdd9579e1f57104735ee0c37df274d593
 
 PODFILE CHECKSUM: 410d1e060347424b0fbed88eb5c143089021e4de
