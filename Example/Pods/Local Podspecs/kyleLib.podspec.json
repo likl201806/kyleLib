@@ -1,0 +1,22 @@
+{
+  "name": "kyleLib",
+  "version": "0.1.0",
+  "summary": "A short description of kyleLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/李孔林/kyleLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "李孔林": "weirongwei2016@126.com"
+  },
+  "source": {
+    "git": "https://github.com/李孔林/kyleLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "kyleLib/Classes/**/*"
+}

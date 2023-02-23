@@ -1,0 +1,6 @@
+framework module kyleLib {
+  umbrella header "kyleLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

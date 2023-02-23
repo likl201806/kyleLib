@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'kyleLib_Example' do
+  pod 'kyleLib', :path => '../'
+
+  target 'kyleLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

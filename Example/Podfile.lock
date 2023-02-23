@@ -1,0 +1,16 @@
+PODS:
+  - kyleLib (0.1.0)
+
+DEPENDENCIES:
+  - kyleLib (from `../`)
+
+EXTERNAL SOURCES:
+  kyleLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  kyleLib: 74b46b958c72e0d7423d390d464983f2539c9e61
+
+PODFILE CHECKSUM: 410d1e060347424b0fbed88eb5c143089021e4de
+
+COCOAPODS: 1.11.3
