@@ -1,15 +1,42 @@
 PODS:
-  - kyleLib (0.1.0)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - kyleLib (0.1.0):
+    - AFNetworking
+    - SDWebImage
+  - SDWebImage (5.15.0):
+    - SDWebImage/Core (= 5.15.0)
+  - SDWebImage/Core (5.15.0)
 
 DEPENDENCIES:
   - kyleLib (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - SDWebImage
 
 EXTERNAL SOURCES:
   kyleLib:
     :path: "../"
 
 SPEC CHECKSUMS:
-  kyleLib: 74b46b958c72e0d7423d390d464983f2539c9e61
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  kyleLib: 9dcc7957e88ffa43ff29a6b7ea90b9e229604c49
+  SDWebImage: 9bec4c5cdd9579e1f57104735ee0c37df274d593
 
 PODFILE CHECKSUM: 410d1e060347424b0fbed88eb5c143089021e4de
 

@@ -18,5 +18,22 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "kyleLib/Classes/**/*"
+  "source_files": "kyleLib/Classes/**/*",
+  "resource_bundles": {
+    "kyleLib": [
+      "kyleLib/Assets/*.png"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "SDWebImage": [
+
+    ]
+  }
 }
