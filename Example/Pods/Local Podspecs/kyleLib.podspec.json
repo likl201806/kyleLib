@@ -24,14 +24,8 @@
       "kyleLib/Assets/*.png"
     ]
   },
-  "frameworks": [
-    "UIKit",
-    "MapKit"
-  ],
+  "frameworks": "UIKit",
   "dependencies": {
-    "AFNetworking": [
-
-    ],
     "SDWebImage": [
 
     ],
