@@ -23,6 +23,19 @@
 		ED28084429A77827006C7AB0 /* LanYouAlertHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = ED28084129A77827006C7AB0 /* LanYouAlertHelper.h */; };
 		ED28084529A77827006C7AB0 /* LanYouAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = ED28084229A77827006C7AB0 /* LanYouAlert.m */; };
 		ED28084729A7787D006C7AB0 /* IGAlertProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = ED28084629A7787D006C7AB0 /* IGAlertProtocol.h */; };
+		ED28088029A781B4006C7AB0 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = ED28087F29A781B4006C7AB0 /* .gitkeep */; };
+		ED28089D29A781D4006C7AB0 /* ly_empty_default_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ED28089129A781D4006C7AB0 /* ly_empty_default_icon.png */; };
+		ED2808AB29A78205006C7AB0 /* UIView+LYEmptyView.h in Headers */ = {isa = PBXBuildFile; fileRef = ED28089E29A78205006C7AB0 /* UIView+LYEmptyView.h */; };
+		ED2808AC29A78205006C7AB0 /* LYEmptyView.h in Headers */ = {isa = PBXBuildFile; fileRef = ED28089F29A78205006C7AB0 /* LYEmptyView.h */; };
+		ED2808AD29A78205006C7AB0 /* LYEmptyViewType.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808A029A78205006C7AB0 /* LYEmptyViewType.h */; };
+		ED2808AE29A78205006C7AB0 /* UIView+LYEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808A129A78205006C7AB0 /* UIView+LYEmptyView.m */; };
+		ED2808AF29A78205006C7AB0 /* LYEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808A229A78205006C7AB0 /* LYEmptyView.m */; };
+		ED2808B029A78205006C7AB0 /* LYEmptyViewLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808A429A78205006C7AB0 /* LYEmptyViewLabel.h */; };
+		ED2808B129A78205006C7AB0 /* LYEmptyDefaultView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808A629A78205006C7AB0 /* LYEmptyDefaultView.m */; };
+		ED2808B229A78205006C7AB0 /* LYEmptyDefaultView.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808A729A78205006C7AB0 /* LYEmptyDefaultView.h */; };
+		ED2808B329A78205006C7AB0 /* LYEmptyViewLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808A829A78205006C7AB0 /* LYEmptyViewLabel.m */; };
+		ED2808B429A78205006C7AB0 /* LYEmptyViewRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2808A929A78205006C7AB0 /* LYEmptyViewRequest.h */; };
+		ED2808B529A78205006C7AB0 /* LYEmptyViewRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2808AA29A78205006C7AB0 /* LYEmptyViewRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +91,19 @@
 		ED28084129A77827006C7AB0 /* LanYouAlertHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanYouAlertHelper.h; sourceTree = "<group>"; };
 		ED28084229A77827006C7AB0 /* LanYouAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanYouAlert.m; sourceTree = "<group>"; };
 		ED28084629A7787D006C7AB0 /* IGAlertProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGAlertProtocol.h; sourceTree = "<group>"; };
+		ED28087F29A781B4006C7AB0 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		ED28089129A781D4006C7AB0 /* ly_empty_default_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ly_empty_default_icon.png; sourceTree = "<group>"; };
+		ED28089E29A78205006C7AB0 /* UIView+LYEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LYEmptyView.h"; sourceTree = "<group>"; };
+		ED28089F29A78205006C7AB0 /* LYEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEmptyView.h; sourceTree = "<group>"; };
+		ED2808A029A78205006C7AB0 /* LYEmptyViewType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEmptyViewType.h; sourceTree = "<group>"; };
+		ED2808A129A78205006C7AB0 /* UIView+LYEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYEmptyView.m"; sourceTree = "<group>"; };
+		ED2808A229A78205006C7AB0 /* LYEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYEmptyView.m; sourceTree = "<group>"; };
+		ED2808A429A78205006C7AB0 /* LYEmptyViewLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEmptyViewLabel.h; sourceTree = "<group>"; };
+		ED2808A629A78205006C7AB0 /* LYEmptyDefaultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYEmptyDefaultView.m; sourceTree = "<group>"; };
+		ED2808A729A78205006C7AB0 /* LYEmptyDefaultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEmptyDefaultView.h; sourceTree = "<group>"; };
+		ED2808A829A78205006C7AB0 /* LYEmptyViewLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYEmptyViewLabel.m; sourceTree = "<group>"; };
+		ED2808A929A78205006C7AB0 /* LYEmptyViewRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEmptyViewRequest.h; sourceTree = "<group>"; };
+		ED2808AA29A78205006C7AB0 /* LYEmptyViewRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYEmptyViewRequest.m; sourceTree = "<group>"; };
 		F269EF66D1A13C684A5A3EE537C2D18C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F2D71D827D7B21F8D0D971B0FF926DF7 /* kyleLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "kyleLib-umbrella.h"; sourceTree = "<group>"; };
 		F764E3365CFB76725DF0D912828BD9FE /* Pods-kyleLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-kyleLib_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -115,9 +141,11 @@
 		2C1A558103AEC5BFF1F003A3099CDD67 /* kyleLib */ = {
 			isa = PBXGroup;
 			children = (
+				ED28088129A781D4006C7AB0 /* LanYouEmptyView */,
 				ED28083F29A77827006C7AB0 /* LanYouAlert */,
 				ED28083A29A7780E006C7AB0 /* CustomSegmented */,
 				7DCE1A11F818A059B79925CAD2A8E752 /* ReplaceMe.m */,
+				ED28087E29A781B4006C7AB0 /* Assets */,
 				6CD40BDF9B83F3ECC6084225498C7189 /* Pod */,
 				F3E16A53C87C7440EAEED52888019121 /* Support Files */,
 			);
@@ -244,6 +272,51 @@
 			path = kyleLib/Classes/LanYouAlert;
 			sourceTree = "<group>";
 		};
+		ED28087E29A781B4006C7AB0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				ED28089129A781D4006C7AB0 /* ly_empty_default_icon.png */,
+				ED28087F29A781B4006C7AB0 /* .gitkeep */,
+			);
+			name = Assets;
+			path = kyleLib/Assets;
+			sourceTree = "<group>";
+		};
+		ED28088129A781D4006C7AB0 /* LanYouEmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				ED2808A329A78205006C7AB0 /* EntityViews */,
+				ED28089F29A78205006C7AB0 /* LYEmptyView.h */,
+				ED2808A229A78205006C7AB0 /* LYEmptyView.m */,
+				ED2808A929A78205006C7AB0 /* LYEmptyViewRequest.h */,
+				ED2808AA29A78205006C7AB0 /* LYEmptyViewRequest.m */,
+				ED2808A029A78205006C7AB0 /* LYEmptyViewType.h */,
+				ED28089E29A78205006C7AB0 /* UIView+LYEmptyView.h */,
+				ED2808A129A78205006C7AB0 /* UIView+LYEmptyView.m */,
+			);
+			name = LanYouEmptyView;
+			path = kyleLib/Classes/LanYouEmptyView;
+			sourceTree = "<group>";
+		};
+		ED2808A329A78205006C7AB0 /* EntityViews */ = {
+			isa = PBXGroup;
+			children = (
+				ED2808A429A78205006C7AB0 /* LYEmptyViewLabel.h */,
+				ED2808A829A78205006C7AB0 /* LYEmptyViewLabel.m */,
+				ED2808A529A78205006C7AB0 /* LYEmptyDefaultView */,
+			);
+			path = EntityViews;
+			sourceTree = "<group>";
+		};
+		ED2808A529A78205006C7AB0 /* LYEmptyDefaultView */ = {
+			isa = PBXGroup;
+			children = (
+				ED2808A729A78205006C7AB0 /* LYEmptyDefaultView.h */,
+				ED2808A629A78205006C7AB0 /* LYEmptyDefaultView.m */,
+			);
+			path = LYEmptyDefaultView;
+			sourceTree = "<group>";
+		};
 		F3E16A53C87C7440EAEED52888019121 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,11 +347,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED2808B229A78205006C7AB0 /* LYEmptyDefaultView.h in Headers */,
+				ED2808AD29A78205006C7AB0 /* LYEmptyViewType.h in Headers */,
 				ED28083E29A7780E006C7AB0 /* CMCustomeSegmentControlView.h in Headers */,
+				ED2808B029A78205006C7AB0 /* LYEmptyViewLabel.h in Headers */,
+				ED2808B429A78205006C7AB0 /* LYEmptyViewRequest.h in Headers */,
+				ED2808AC29A78205006C7AB0 /* LYEmptyView.h in Headers */,
 				ED28084429A77827006C7AB0 /* LanYouAlertHelper.h in Headers */,
 				ED28084329A77827006C7AB0 /* LanYouAlert.h in Headers */,
 				ED28084729A7787D006C7AB0 /* IGAlertProtocol.h in Headers */,
 				2C80C448FF5B34908075C9897AA16A20 /* kyleLib-umbrella.h in Headers */,
+				ED2808AB29A78205006C7AB0 /* UIView+LYEmptyView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +476,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED28088029A781B4006C7AB0 /* .gitkeep in Resources */,
+				ED28089D29A781D4006C7AB0 /* ly_empty_default_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,10 +488,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED2808B529A78205006C7AB0 /* LYEmptyViewRequest.m in Sources */,
 				ED28084529A77827006C7AB0 /* LanYouAlert.m in Sources */,
 				053214D00AF1A9E3CB20DD748BB94DF5 /* kyleLib-dummy.m in Sources */,
+				ED2808AE29A78205006C7AB0 /* UIView+LYEmptyView.m in Sources */,
+				ED2808B129A78205006C7AB0 /* LYEmptyDefaultView.m in Sources */,
+				ED2808B329A78205006C7AB0 /* LYEmptyViewLabel.m in Sources */,
 				E62347E678F59F93D4C23FEEBAB7030E /* ReplaceMe.m in Sources */,
 				ED28083D29A7780E006C7AB0 /* CMCustomeSegmentControlView.m in Sources */,
+				ED2808AF29A78205006C7AB0 /* LYEmptyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
