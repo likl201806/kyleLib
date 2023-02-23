@@ -17,6 +17,12 @@
 		B016BC51284EA62F6DD8A3850ED5EE13 /* Pods-kyleLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5D36DE1B53A3612212C65FB372A5F2 /* Pods-kyleLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1FB2861EB9B5A29ABFC9B15C0AFFD6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E62347E678F59F93D4C23FEEBAB7030E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DCE1A11F818A059B79925CAD2A8E752 /* ReplaceMe.m */; };
+		ED28083D29A7780E006C7AB0 /* CMCustomeSegmentControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED28083B29A7780E006C7AB0 /* CMCustomeSegmentControlView.m */; };
+		ED28083E29A7780E006C7AB0 /* CMCustomeSegmentControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = ED28083C29A7780E006C7AB0 /* CMCustomeSegmentControlView.h */; };
+		ED28084329A77827006C7AB0 /* LanYouAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = ED28084029A77827006C7AB0 /* LanYouAlert.h */; };
+		ED28084429A77827006C7AB0 /* LanYouAlertHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = ED28084129A77827006C7AB0 /* LanYouAlertHelper.h */; };
+		ED28084529A77827006C7AB0 /* LanYouAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = ED28084229A77827006C7AB0 /* LanYouAlert.m */; };
+		ED28084729A7787D006C7AB0 /* IGAlertProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = ED28084629A7787D006C7AB0 /* IGAlertProtocol.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +53,7 @@
 		2C07646C9FC998D3E85ADB5DA0DB65AC /* Pods-kyleLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-kyleLib_Tests-Info.plist"; sourceTree = "<group>"; };
 		2F6712CEB6CE6FE11598F4318341E611 /* kyleLib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = kyleLib; path = kyleLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		394E7AF2CEED09265BCA05DE4DC0E73E /* Pods-kyleLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-kyleLib_Example.modulemap"; sourceTree = "<group>"; };
-		433EEDDF221836870D98D8A422FC58B5 /* kyleLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = kyleLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		433EEDDF221836870D98D8A422FC58B5 /* kyleLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = kyleLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		46A3699AA5BF9364DBBA064AEEA3E597 /* Pods-kyleLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-kyleLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5B8B92697FE2478776CBE7E5ED3CCA2A /* Pods-kyleLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-kyleLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		665DC28065AEFCD2EC6D8E5F972274BB /* kyleLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "kyleLib-prefix.pch"; sourceTree = "<group>"; };
@@ -55,18 +61,24 @@
 		7934AD7C0D597D493094D23371E524FD /* Pods-kyleLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-kyleLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7DCE1A11F818A059B79925CAD2A8E752 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = kyleLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		7EFD9C8E68B7C35787FD7AC0BF9E0679 /* kyleLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = kyleLib.debug.xcconfig; sourceTree = "<group>"; };
-		819E8599B1346921CBF3B195C04E4C1F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		819E8599B1346921CBF3B195C04E4C1F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8C1C30EC2EFA9CA5EDD7780469EAD9E4 /* Pods-kyleLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-kyleLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		936A91DE2F2D702252BF0DBA20F28398 /* kyleLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "kyleLib-dummy.m"; sourceTree = "<group>"; };
 		96C0C175454956182ED5398E686E6441 /* kyleLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = kyleLib.modulemap; sourceTree = "<group>"; };
 		999E249C25D299391563EE2986DE3881 /* kyleLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = kyleLib.release.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A515AF4670BE96AC8A718558F96CEF91 /* Pods-kyleLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-kyleLib_Example-dummy.m"; sourceTree = "<group>"; };
 		A58AB6CB51DA8F80CF5FCD5755B3AE4E /* Pods-kyleLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-kyleLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AE3CB3EE06BFDD9BA5F0C5E6BA0FA037 /* Pods-kyleLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-kyleLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D8613074BBBB2F6BD53207BFA0E74862 /* Pods-kyleLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-kyleLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DAB157726B79B787FC16DFF9FA7562AD /* Pods-kyleLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-kyleLib_Tests.modulemap"; sourceTree = "<group>"; };
-		F269EF66D1A13C684A5A3EE537C2D18C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		ED28083B29A7780E006C7AB0 /* CMCustomeSegmentControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMCustomeSegmentControlView.m; sourceTree = "<group>"; };
+		ED28083C29A7780E006C7AB0 /* CMCustomeSegmentControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMCustomeSegmentControlView.h; sourceTree = "<group>"; };
+		ED28084029A77827006C7AB0 /* LanYouAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanYouAlert.h; sourceTree = "<group>"; };
+		ED28084129A77827006C7AB0 /* LanYouAlertHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanYouAlertHelper.h; sourceTree = "<group>"; };
+		ED28084229A77827006C7AB0 /* LanYouAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanYouAlert.m; sourceTree = "<group>"; };
+		ED28084629A7787D006C7AB0 /* IGAlertProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGAlertProtocol.h; sourceTree = "<group>"; };
+		F269EF66D1A13C684A5A3EE537C2D18C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F2D71D827D7B21F8D0D971B0FF926DF7 /* kyleLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "kyleLib-umbrella.h"; sourceTree = "<group>"; };
 		F764E3365CFB76725DF0D912828BD9FE /* Pods-kyleLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-kyleLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		F80B7B83EEBC1058161EE5166898A332 /* Pods-kyleLib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-kyleLib_Example"; path = Pods_kyleLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +115,8 @@
 		2C1A558103AEC5BFF1F003A3099CDD67 /* kyleLib */ = {
 			isa = PBXGroup;
 			children = (
+				ED28083F29A77827006C7AB0 /* LanYouAlert */,
+				ED28083A29A7780E006C7AB0 /* CustomSegmented */,
 				7DCE1A11F818A059B79925CAD2A8E752 /* ReplaceMe.m */,
 				6CD40BDF9B83F3ECC6084225498C7189 /* Pod */,
 				F3E16A53C87C7440EAEED52888019121 /* Support Files */,
@@ -208,6 +222,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		ED28083A29A7780E006C7AB0 /* CustomSegmented */ = {
+			isa = PBXGroup;
+			children = (
+				ED28083B29A7780E006C7AB0 /* CMCustomeSegmentControlView.m */,
+				ED28083C29A7780E006C7AB0 /* CMCustomeSegmentControlView.h */,
+			);
+			name = CustomSegmented;
+			path = kyleLib/Classes/CustomSegmented;
+			sourceTree = "<group>";
+		};
+		ED28083F29A77827006C7AB0 /* LanYouAlert */ = {
+			isa = PBXGroup;
+			children = (
+				ED28084629A7787D006C7AB0 /* IGAlertProtocol.h */,
+				ED28084029A77827006C7AB0 /* LanYouAlert.h */,
+				ED28084129A77827006C7AB0 /* LanYouAlertHelper.h */,
+				ED28084229A77827006C7AB0 /* LanYouAlert.m */,
+			);
+			name = LanYouAlert;
+			path = kyleLib/Classes/LanYouAlert;
+			sourceTree = "<group>";
+		};
 		F3E16A53C87C7440EAEED52888019121 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -238,6 +274,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED28083E29A7780E006C7AB0 /* CMCustomeSegmentControlView.h in Headers */,
+				ED28084429A77827006C7AB0 /* LanYouAlertHelper.h in Headers */,
+				ED28084329A77827006C7AB0 /* LanYouAlert.h in Headers */,
+				ED28084729A7787D006C7AB0 /* IGAlertProtocol.h in Headers */,
 				2C80C448FF5B34908075C9897AA16A20 /* kyleLib-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,8 +407,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED28084529A77827006C7AB0 /* LanYouAlert.m in Sources */,
 				053214D00AF1A9E3CB20DD748BB94DF5 /* kyleLib-dummy.m in Sources */,
 				E62347E678F59F93D4C23FEEBAB7030E /* ReplaceMe.m in Sources */,
+				ED28083D29A7780E006C7AB0 /* CMCustomeSegmentControlView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,8 +600,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
