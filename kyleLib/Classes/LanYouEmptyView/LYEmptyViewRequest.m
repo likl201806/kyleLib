@@ -60,7 +60,7 @@
     // 获取当前的bundle,self只是在当前pod库中的一个类，也可以随意写一个其他的类
     NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
     // 获取图片的路径,其中LanYouBaseClasses是组件名
-    NSString *imagePath = [currentBundle pathForResource:imageName ofType:nil inDirectory:[NSString stringWithFormat:@"%@.bundle",@"LanYouEmptyView"]];
+    NSString *imagePath = [currentBundle pathForResource:imageName ofType:nil inDirectory:[NSString stringWithFormat:@"%@.bundle",@"kyleLib"]];
     // 获取图片
     return [UIImage imageWithContentsOfFile:imagePath];
 }

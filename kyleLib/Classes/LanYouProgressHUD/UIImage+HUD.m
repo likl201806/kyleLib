@@ -28,7 +28,7 @@
         return assetImg;
     }
     NSBundle *currentBundle = [NSBundle bundleForClass:[LYProgressHUD class]];
-    NSString *path = [currentBundle pathForResource:imageName ofType:@"png" inDirectory:@"LanYouProgressHUD.bundle"];
+    NSString *path = [currentBundle pathForResource:imageName ofType:@"png" inDirectory:@"kyleLib.bundle"];
     UIImage *image = [UIImage imageWithContentsOfFile:path];
     
     return image;
