@@ -72,8 +72,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// 设置 自定义视图 -> 格式: .CMCustomView(UIView)
 @property (nonatomic , copy , readonly ) CMConfigToView CMCustomView;
 
-/// 设置 动作 -> 格式: .CMAction(@"name" , ^{ //code.. })
-@property (nonatomic , copy , readonly ) CMConfigToStringAndBlock CMAction;
+/// 设置 动作 -> 格式: .IGYRAction(@"name" , ^{ //code.. })
+@property (nonatomic , copy , readonly ) CMConfigToStringAndBlock IGYRAction;
 
 /// 设置 取消动作 -> 格式: .CMCancelAction(@"name" , ^{ //code.. })
 @property (nonatomic , copy , readonly ) CMConfigToStringAndBlock CMCancelAction;
@@ -93,10 +93,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// 设置 添加一项 -> 格式: .CMAddItem(^(CMItem *){ //code.. })
 @property (nonatomic , copy , readonly ) CMConfigToItem CMAddItem;
 
-/// 设置 添加动作 -> 格式: .CMAddAction(^(CMAction *){ //code.. })
+/// 设置 添加动作 -> 格式: .CMAddAction(^(IGYRAction *){ //code.. })
 @property (nonatomic , copy , readonly ) CMConfigToAction CMAddAction;
 
-/// 设置 添加动作 -> 格式: .CMConfigToActions(^(NSArray <CMAction *> *actions){ //code.. })
+/// 设置 添加动作 -> 格式: .CMConfigToActions(^(NSArray <IGYRAction *> *actions){ //code.. })
 @property (nonatomic , copy , readonly ) CMConfigToActions CMAddActions;
 
 /// 设置 头部内的间距 -> 格式: .CMHeaderInsets(UIEdgeInsetsMake(20, 20, 20, 20))
@@ -205,7 +205,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// ✨alert 专用设置
 
-/// 设置 Action边框样式 -> 格式: .CMActionBorderStyle(CMActionBorderTypeAll)
+/// 设置 Action边框样式 -> 格式: .IGYRActionBorderStyle(IGYRActionBorderTypeAll)
 @property (nonatomic , copy , readonly ) CMConfigToAlertActionBorderStyle CMAlertActionBorderStyle;
 
 /// 设置 按钮中部分割线大小 CMAlertActionBorderStyleAll下设置无效  -> 格式: .CMAlertActionBorderSize(CGSizeMake(0.5f, 18f)) 
@@ -225,17 +225,17 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// ✨actionSheet 专用设置
 
-/// 设置 ActionSheet的背景视图颜色 -> 格式: .CMActionSheetBackgroundColor(UIColor)
-@property (nonatomic , copy , readonly ) CMConfigToColor CMActionSheetBackgroundColor;
+/// 设置 ActionSheet的背景视图颜色 -> 格式: .IGYRActionSheetBackgroundColor(UIColor)
+@property (nonatomic , copy , readonly ) CMConfigToColor IGYRActionSheetBackgroundColor;
 
-/// 设置 取消动作的间隔宽度 -> 格式: .CMActionSheetCancelActionSpaceWidth(10.0f)
-@property (nonatomic , copy , readonly ) CMConfigToFloat CMActionSheetCancelActionSpaceWidth;
+/// 设置 取消动作的间隔宽度 -> 格式: .IGYRActionSheetCancelActionSpaceWidth(10.0f)
+@property (nonatomic , copy , readonly ) CMConfigToFloat IGYRActionSheetCancelActionSpaceWidth;
 
-/// 设置 取消动作的间隔颜色 -> 格式: .CMActionSheetCancelActionSpaceColor(UIColor)
-@property (nonatomic , copy , readonly ) CMConfigToColor CMActionSheetCancelActionSpaceColor;
+/// 设置 取消动作的间隔颜色 -> 格式: .IGYRActionSheetCancelActionSpaceColor(UIColor)
+@property (nonatomic , copy , readonly ) CMConfigToColor IGYRActionSheetCancelActionSpaceColor;
 
-/// 设置 ActionSheet距离屏幕底部的间距 -> 格式: .CMActionSheetBottomMargin(10.0f)
-@property (nonatomic , copy , readonly ) CMConfigToFloat CMActionSheetBottomMargin;
+/// 设置 ActionSheet距离屏幕底部的间距 -> 格式: .IGYRActionSheetBottomMargin(10.0f)
+@property (nonatomic , copy , readonly ) CMConfigToFloat IGYRActionSheetBottomMargin;
 
 /// 设置 是否可以关闭 -> 格式: .cmShouldClose(^{ return YES; })
 @property (nonatomic, copy, readonly ) CMConfigToBlockReturnBool cmShouldClose;
@@ -267,10 +267,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@interface CMAction : NSObject
+@interface IGYRAction : NSObject
 
 /// action类型
-@property (nonatomic , assign ) CMActionType type;
+@property (nonatomic , assign ) IGYRActionType type;
 
 /// action标题
 @property (nonatomic , strong ) NSString *title;
@@ -332,8 +332,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// action边框颜色
 @property (nonatomic , strong ) UIColor *borderColor;
 
-/// action边框位置 默认是CMActionBorderPositionTop 如配置了CMAlertActionBorderStyle 可能会失效
-@property (nonatomic , assign ) CMActionBorderPosition borderPosition;
+/// action边框位置 默认是IGYRActionBorderPositionTop 如配置了CMAlertActionBorderStyle 可能会失效
+@property (nonatomic , assign ) IGYRActionBorderPosition borderPosition;
 
 /// action点击不关闭
 @property (nonatomic , assign ) BOOL isClickNotClose;

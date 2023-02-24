@@ -5,7 +5,7 @@
 #define LanYouAlertHelper_h
 
 
-@class LanYouAlert , LanYouAlertConfig , LanYouAlertConfigModel , LanYouAlertWindow , CMAction , CMItem , CMCustomView;
+@class LanYouAlert , LanYouAlertConfig , LanYouAlertConfigModel , LanYouAlertWindow , IGYRAction , CMItem , CMCustomView;
 
 typedef NS_ENUM(NSInteger, CMScreenOrientationType) {
    /// 屏幕方向类型 横屏
@@ -23,25 +23,25 @@ typedef NS_ENUM(NSInteger, LanYouAlertType) {
 };
 
 
-typedef NS_ENUM(NSInteger, CMActionType) {
+typedef NS_ENUM(NSInteger, IGYRActionType) {
    /// 默认
-    CMActionTypeDefault,
+    IGYRActionTypeDefault,
    /// 取消
-    CMActionTypeCancel,
+    IGYRActionTypeCancel,
    /// 销毁
-    CMActionTypeDestructive
+    IGYRActionTypeDestructive
 };
 
 
-typedef NS_OPTIONS(NSInteger, CMActionBorderPosition) {
+typedef NS_OPTIONS(NSInteger, IGYRActionBorderPosition) {
    /// Action边框位置 上
-    CMActionBorderPositionTop      = 1 << 0,
+    IGYRActionBorderPositionTop      = 1 << 0,
    /// Action边框位置 下
-    CMActionBorderPositionBottom   = 1 << 1,
+    IGYRActionBorderPositionBottom   = 1 << 1,
    /// Action边框位置 左
-    CMActionBorderPositionLeft     = 1 << 2,
+    IGYRActionBorderPositionLeft     = 1 << 2,
    /// Action边框位置 右
-    CMActionBorderPositionRight    = 1 << 3
+    IGYRActionBorderPositionRight    = 1 << 3
 };
 
 
@@ -110,8 +110,8 @@ typedef LanYouAlertConfigModel * _Nonnull (^CMConfigToAnimationStyle)(CMAnimatio
 typedef LanYouAlertConfigModel * _Nonnull (^CMConfigToBlurEffectStyle)(UIBlurEffectStyle style);
 typedef LanYouAlertConfigModel * _Nonnull (^CMConfigToInterfaceOrientationMask)(UIInterfaceOrientationMask);
 typedef LanYouAlertConfigModel * _Nonnull (^CMConfigToFloatBlock)(CGFloat(^)(CMScreenOrientationType type));
-typedef LanYouAlertConfigModel * _Nonnull (^CMConfigToAction)(void(^)(CMAction *action));
-typedef LanYouAlertConfigModel * _Nonnull (^CMConfigToActions)(NSArray <void(^)(CMAction *)>*actions);
+typedef LanYouAlertConfigModel * _Nonnull (^CMConfigToAction)(void(^)(IGYRAction *action));
+typedef LanYouAlertConfigModel * _Nonnull (^CMConfigToActions)(NSArray <void(^)(IGYRAction *)>*actions);
 typedef LanYouAlertConfigModel * _Nonnull (^CMConfigToCustomView)(void(^)(CMCustomView *custom));
 typedef LanYouAlertConfigModel * _Nonnull (^CMConfigToStringAndBlock)(NSString *str, void (^ _Nullable)(void));
 typedef LanYouAlertConfigModel * _Nonnull (^CMConfigToConfigLabel)(void(^ _Nullable)(UILabel *label));

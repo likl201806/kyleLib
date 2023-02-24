@@ -244,13 +244,13 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
     
 }
 
-- (CMConfigToStringAndBlock)CMAction{
+- (CMConfigToStringAndBlock)IGYRAction{
     
     return ^(NSString *title , void(^block)(void)){
         
-        return self.CMAddAction(^(CMAction *action) {
+        return self.CMAddAction(^(IGYRAction *action) {
             
-            action.type = CMActionTypeDefault;
+            action.type = IGYRActionTypeDefault;
             
             action.title = title;
             
@@ -265,9 +265,9 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
     
     return ^(NSString *title , void(^block)(void)){
         
-        return self.CMAddAction(^(CMAction *action) {
+        return self.CMAddAction(^(IGYRAction *action) {
             
-            action.type = CMActionTypeCancel;
+            action.type = IGYRActionTypeCancel;
             
             action.title = title;
             
@@ -284,9 +284,9 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
     
     return ^(NSString *title , void(^block)(void)){
         
-        return self.CMAddAction(^(CMAction *action) {
+        return self.CMAddAction(^(IGYRAction *action) {
             
-            action.type = CMActionTypeDestructive;
+            action.type = IGYRActionTypeDestructive;
             
             action.title = title;
             
@@ -368,7 +368,7 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
 
 - (CMConfigToAction)CMAddAction{
     
-    return ^(void(^block)(CMAction *)){
+    return ^(void(^block)(IGYRAction *)){
         
         if (block) [self.modelActionArray addObject:block];
         
@@ -379,7 +379,7 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
 
 - (CMConfigToActions)CMAddActions {
     __weak __typeof(self)weakSelf = self;
-    return ^(NSArray <void(^)(CMAction *)> *actions) {
+    return ^(NSArray <void(^)(IGYRAction *)> *actions) {
         if (actions && [actions isKindOfClass:[NSArray class]] && actions.count > 0) {
             [self.modelActionArray addObjectsFromArray:actions];
         }
@@ -848,7 +848,7 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
 
 #pragma mark ActionSheet Config
 
-- (CMConfigToFloat)CMActionSheetCancelActionSpaceWidth{
+- (CMConfigToFloat)IGYRActionSheetCancelActionSpaceWidth{
     
     return ^(CGFloat number){
         
@@ -859,7 +859,7 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
     
 }
 
-- (CMConfigToColor)CMActionSheetCancelActionSpaceColor{
+- (CMConfigToColor)IGYRActionSheetCancelActionSpaceColor{
     
     return ^(UIColor *color){
         
@@ -870,7 +870,7 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
     
 }
 
-- (CMConfigToFloat)CMActionSheetBottomMargin{
+- (CMConfigToFloat)IGYRActionSheetBottomMargin{
     
     return ^(CGFloat number){
         
@@ -881,7 +881,7 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
     
 }
 
-- (CMConfigToColor)CMActionSheetBackgroundColor{
+- (CMConfigToColor)IGYRActionSheetBackgroundColor{
     
     return ^(UIColor *color){
         
@@ -1151,16 +1151,16 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
 
 @end
 
-@interface CMAction ()
+@interface IGYRAction ()
 
-@property (nonatomic , copy ) void (^updateBlock)(CMAction *);
+@property (nonatomic , copy ) void (^updateBlock)(IGYRAction *);
 /// 是否显示按钮中间的短线
 @property (nonatomic , assign ) BOOL isShowMiddleLine;
 
 @property (nonatomic, assign) CGSize borderSize;
 @end
 
-@implementation CMAction
+@implementation IGYRAction
 
 - (void)update{
     
@@ -1249,18 +1249,18 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
 }
 
 @end
-#pragma mark - CMActionButton
-@interface CMActionButton : UIButton
+#pragma mark - IGYRActionButton
+@interface IGYRActionButton : UIButton
 
-@property (nonatomic , strong ) CMAction *action;
+@property (nonatomic , strong ) IGYRAction *action;
 
 @property (nonatomic , copy ) void (^heightChangedBlock)(void);
 
-+ (CMActionButton *)button;
++ (IGYRActionButton *)button;
 
 @end
 
-@interface CMActionButton ()
+@interface IGYRActionButton ()
 
 @property (nonatomic , strong ) UIColor *borderColor;
 
@@ -1276,14 +1276,14 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
 
 @end
 
-@implementation CMActionButton
+@implementation IGYRActionButton
 
-+ (CMActionButton *)button{
++ (IGYRActionButton *)button{
     
-    return [CMActionButton buttonWithType:UIButtonTypeCustom];;
+    return [IGYRActionButton buttonWithType:UIButtonTypeCustom];;
 }
 
-- (void)setAction:(CMAction *)action{
+- (void)setAction:(IGYRAction *)action{
     
     _action = action;
     
@@ -1327,10 +1327,10 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
     
     [self setTitleEdgeInsets:action.titleEdgeInsets];
     
-    if (action.borderPosition & CMActionBorderPositionTop &&
-        action.borderPosition & CMActionBorderPositionBottom &&
-        action.borderPosition & CMActionBorderPositionLeft &&
-        action.borderPosition & CMActionBorderPositionRight) {
+    if (action.borderPosition & IGYRActionBorderPositionTop &&
+        action.borderPosition & IGYRActionBorderPositionBottom &&
+        action.borderPosition & IGYRActionBorderPositionLeft &&
+        action.borderPosition & IGYRActionBorderPositionRight) {
         
         self.layer.borderWidth = action.borderWidth;
         
@@ -1350,18 +1350,18 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
         
         self.layer.borderColor = [UIColor clearColor].CGColor;
         
-        if (action.borderPosition & CMActionBorderPositionTop) [self addTopBorder]; else [self removeTopBorder];
+        if (action.borderPosition & IGYRActionBorderPositionTop) [self addTopBorder]; else [self removeTopBorder];
         
-        if (action.borderPosition & CMActionBorderPositionBottom) [self addBottomBorder]; else [self removeBottomBorder];
+        if (action.borderPosition & IGYRActionBorderPositionBottom) [self addBottomBorder]; else [self removeBottomBorder];
         
-        if (action.borderPosition & CMActionBorderPositionLeft) [self addLeftBorder]; else [self removeLeftBorder];
+        if (action.borderPosition & IGYRActionBorderPositionLeft) [self addLeftBorder]; else [self removeLeftBorder];
         
-        if (action.borderPosition & CMActionBorderPositionRight) [self addRightBorder]; else [self removeRightBorder];
+        if (action.borderPosition & IGYRActionBorderPositionRight) [self addRightBorder]; else [self removeRightBorder];
     }
     
     __weak typeof(self) weakSelf = self;
     
-    action.updateBlock = ^(CMAction *act) {
+    action.updateBlock = ^(IGYRAction *act) {
         
         if (weakSelf) weakSelf.action = act;
     };
@@ -1832,7 +1832,7 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
 
 @property (nonatomic , strong ) NSMutableArray <id>*alertItemArray;
 
-@property (nonatomic , strong ) NSMutableArray <CMActionButton *>*alertActionArray;
+@property (nonatomic , strong ) NSMutableArray <IGYRActionButton *>*alertActionArray;
 
 @end
 
@@ -2074,7 +2074,7 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
         if (item == self.alertItemArray.lastObject) alertViewHeight += self.config.modelHeaderInsets.bottom;
     }];
     
-    for (CMActionButton *button in self.alertActionArray) {
+    for (IGYRActionButton *button in self.alertActionArray) {
         
         CGRect buttonFrame = button.frame;
         
@@ -2091,9 +2091,9 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
     
     if (self.alertActionArray.count == 2) {
         
-        CMActionButton *buttonA = self.alertActionArray.count == self.config.modelActionArray.count ? self.alertActionArray.firstObject : self.alertActionArray.lastObject;
+        IGYRActionButton *buttonA = self.alertActionArray.count == self.config.modelActionArray.count ? self.alertActionArray.firstObject : self.alertActionArray.lastObject;
         
-        CMActionButton *buttonB = self.alertActionArray.count == self.config.modelActionArray.count ? self.alertActionArray.lastObject : self.alertActionArray.firstObject;
+        IGYRActionButton *buttonB = self.alertActionArray.count == self.config.modelActionArray.count ? self.alertActionArray.lastObject : self.alertActionArray.firstObject;
        
         UIEdgeInsets buttonAInsets = buttonA.action.insets;
         
@@ -2272,9 +2272,9 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
     
     [self.config.modelActionArray enumerateObjectsUsingBlock:^(id item, NSUInteger idx, BOOL * _Nonnull stop) {
         
-        void (^block)(CMAction *action) = item;
+        void (^block)(IGYRAction *action) = item;
         
-        CMAction *action = [[CMAction alloc] init];
+        IGYRAction *action = [[IGYRAction alloc] init];
         
         if (block) block(action);
         
@@ -2295,29 +2295,29 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
         if (self.config.modelActionArray.count == 2) {
             if (self.config.modelAlertActionBorderStyle == CMAlertActionBorderStyleAll) {
                 action.isShowMiddleLine = NO;
-                if (!action.borderPosition) action.borderPosition = (idx == 0) ? CMActionBorderPositionTop | CMActionBorderPositionRight : CMActionBorderPositionTop;
+                if (!action.borderPosition) action.borderPosition = (idx == 0) ? IGYRActionBorderPositionTop | IGYRActionBorderPositionRight : IGYRActionBorderPositionTop;
             }else if (self.config.modelAlertActionBorderStyle == CMAlertActionBorderStyleTopMiddle) {
                 action.isShowMiddleLine = YES;
                 if (!CGSizeEqualToSize(self.config.modelAlertActionBorderSize, CGSizeZero)) {
                     action.borderSize = self.config.modelAlertActionBorderSize;
                 }
-                action.borderPosition = (idx == 0) ? CMActionBorderPositionTop | CMActionBorderPositionRight : CMActionBorderPositionTop;
+                action.borderPosition = (idx == 0) ? IGYRActionBorderPositionTop | IGYRActionBorderPositionRight : IGYRActionBorderPositionTop;
             }else {
                 action.isShowMiddleLine = YES;
                 if (idx == 0) {
-                    action.borderPosition = CMActionBorderPositionRight;
+                    action.borderPosition = IGYRActionBorderPositionRight;
                     if (!CGSizeEqualToSize(self.config.modelAlertActionBorderSize, CGSizeZero)) {
                         action.borderSize = self.config.modelAlertActionBorderSize;
                     }
                 }
             }
         }else {
-            if (!action.borderPosition) action.borderPosition = CMActionBorderPositionTop;
+            if (!action.borderPosition) action.borderPosition = IGYRActionBorderPositionTop;
         }
         
         if (!action.height) action.height = 45.0f;
         
-        CMActionButton *button = [CMActionButton button];
+        IGYRActionButton *button = [IGYRActionButton button];
         
         button.action = action;
         
@@ -2345,7 +2345,7 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
     
 }
 
-- (void)buttonAction:(CMActionButton *)sender{
+- (void)buttonAction:(IGYRActionButton *)sender{
     
     BOOL isClose = NO;
     
@@ -2353,19 +2353,19 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
     
     switch (sender.action.type) {
             
-        case CMActionTypeDefault:
+        case IGYRActionTypeDefault:
             
             isClose = sender.action.isClickNotClose ? NO : YES;
             
             break;
             
-        case CMActionTypeCancel:
+        case IGYRActionTypeCancel:
             
             isClose = sender.action.isClickNotClose ? NO : YES;;
             
             break;
             
-        case CMActionTypeDestructive:
+        case IGYRActionTypeDestructive:
             
             isClose = sender.action.isClickNotClose ? NO : YES;;
             
@@ -2641,7 +2641,7 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
     return _alertItemArray;
 }
 
-- (NSMutableArray <CMActionButton *>*)alertActionArray{
+- (NSMutableArray <IGYRActionButton *>*)alertActionArray{
     
     if (!_alertActionArray) _alertActionArray = [NSMutableArray array];
     
@@ -2660,11 +2660,11 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
 
 @property (nonatomic , strong ) NSMutableArray <id>*actionSheetItemArray;
 
-@property (nonatomic , strong ) NSMutableArray <CMActionButton *>*actionSheetActionArray;
+@property (nonatomic , strong ) NSMutableArray <IGYRActionButton *>*actionSheetActionArray;
 
 @property (nonatomic , strong ) UIView *actionSheetCancelActionSpaceView;
 
-@property (nonatomic , strong ) CMActionButton *actionSheetCancelAction;
+@property (nonatomic , strong ) IGYRActionButton *actionSheetCancelAction;
 
 @end
 
@@ -2788,7 +2788,7 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
         if (item == self.actionSheetItemArray.lastObject) actionSheetViewHeight += self.config.modelHeaderInsets.bottom;
     }];
     
-    for (CMActionButton *button in self.actionSheetActionArray) {
+    for (IGYRActionButton *button in self.actionSheetActionArray) {
         
         CGRect buttonFrame = button.frame;
         
@@ -2993,9 +2993,9 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
     
     for (id item in self.config.modelActionArray) {
         
-        void (^block)(CMAction *action) = item;
+        void (^block)(IGYRAction *action) = item;
         
-        CMAction *action = [[CMAction alloc] init];
+        IGYRAction *action = [[IGYRAction alloc] init];
         
         if (block) block(action);
         
@@ -3015,10 +3015,10 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
         
         if (!action.height) action.height = 57.0f;
         
-        CMActionButton *button = [CMActionButton button];
+        IGYRActionButton *button = [IGYRActionButton button];
         
         switch (action.type) {
-            case CMActionTypeCancel:
+            case IGYRActionTypeCancel:
             {
                 [button addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
                 
@@ -3040,7 +3040,7 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
                 
             default:
             {
-                if (!action.borderPosition) action.borderPosition = CMActionBorderPositionTop;
+                if (!action.borderPosition) action.borderPosition = IGYRActionBorderPositionTop;
                 
                 [button addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
                 
@@ -3070,14 +3070,14 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
     
 }
 
-- (void)buttonAction:(CMActionButton *)sender{
+- (void)buttonAction:(IGYRActionButton *)sender{
     
     BOOL isClose = NO;
     NSInteger index = 0;
     void (^clickBlock)(void) = nil;
     
     switch (sender.action.type) {
-        case CMActionTypeDefault:
+        case IGYRActionTypeDefault:
             
             isClose = sender.action.isClickNotClose ? NO : YES;
             
@@ -3085,7 +3085,7 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
             
             break;
             
-        case CMActionTypeCancel:
+        case IGYRActionTypeCancel:
             
             isClose = sender.action.isClickNotClose ? NO : YES;;
             
@@ -3093,7 +3093,7 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
             
             break;
             
-        case CMActionTypeDestructive:
+        case IGYRActionTypeDestructive:
             
             isClose = sender.action.isClickNotClose ? NO : YES;;
             
@@ -3365,7 +3365,7 @@ typedef NS_ENUM(NSInteger, CMBackgroundStyle) {
     return _actionSheetItemArray;
 }
 
-- (NSMutableArray <CMActionButton *>*)actionSheetActionArray{
+- (NSMutableArray <IGYRActionButton *>*)actionSheetActionArray{
     
     if (!_actionSheetActionArray) _actionSheetActionArray = [NSMutableArray array];
     
