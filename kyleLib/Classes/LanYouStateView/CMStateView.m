@@ -27,8 +27,7 @@
 @implementation CMStateView
 
 + (instancetype)stateView {
-    NSString *className = NSStringFromClass([self class]);
-    CMStateView *stateView = [[NSBundle mainBundle] loadNibNamed: className owner:nil options:nil].lastObject;
+    CMStateView *stateView = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([self class]) owner:nil options:nil].lastObject;
     [stateView defaultConfig];
     return stateView;
 }
